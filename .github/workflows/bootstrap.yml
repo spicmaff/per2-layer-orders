@@ -1,0 +1,55 @@
+name: bootstrap-approved-public-tree
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Unpack approved public repository
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          archive="$(find . -maxdepth 1 -type f \
+            -name 'PER2_PUBLIC_GITHUB_REPO_READY*.zip' \
+            -print -quit)"
+
+          test -n "$archive"
+
+          mkdir -p "$RUNNER_TEMP/per2-approved"
+
+          python - "$archive" "$RUNNER_TEMP/per2-approved" <<'PY'
+          import sys
+          import zipfile
+
+          archive, destination = sys.argv[1:]
+
+          with zipfile.ZipFile(archive) as z:
+              z.extractall(destination)
+          PY
+
+          cp -a "$RUNNER_TEMP/per2-approved/." .
+
+          rm -f "$archive"
+          rm -f .github/workflows/bootstrap.yml
+
+      - name: Commit approved public tree
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Initial public research artifact"
+          git push origin HEAD:main
