@@ -41,9 +41,22 @@ with tempfile.TemporaryDirectory() as td:
         root / "reference/validation/k2_exact_states.json",
         "k=2 exact-state export",
     )
+    # Site-only payloads are intentionally generated, not committed.  Cross-check
+    # the classification payload through the two production generation paths.
+    classification_check = tmp / "classification-v1.independent.json"
+    classification_code = (
+        "from pathlib import Path; "
+        "from per2.export import write_site_classification_json; "
+        "write_site_classification_json(Path(__import__('sys').argv[1]))"
+    )
+    subprocess.run(
+        [sys.executable, "-c", classification_code, str(classification_check)],
+        check=True,
+        env=env,
+    )
     compare_bytes(
         tmp / "web/data/classification-v1.json",
-        root / "web/data/classification-v1.json",
+        classification_check,
         "site classification export",
     )
 
