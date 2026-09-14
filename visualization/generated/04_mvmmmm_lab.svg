@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="980" viewBox="0 0 1320 980" role="img">
+<style>text{font-family:Inter,Arial,Helvetica,sans-serif} .mono{font-family:"DejaVu Sans Mono",Consolas,monospace}</style>
+<title>Canonical MVMMMM LIFO block lab</title><desc>BR-block compatibility matrix plus deterministic success and first-failure LIFO traces.</desc>
+<rect width="1320" height="980" fill="#F4F6F8"/>
+<text x="48" y="48" font-size="30" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle">Canonical MVMMMM — BR blocks and LIFO reconstruction</text>
+<text x="48" y="82" font-size="14" fill="#66727F" font-weight="400" text-anchor="start" dominant-baseline="middle">Compatible iff the two pivots lie in the same BR block. The horizontal merge is then forced.</text>
+<rect x="1040" y="36" width="230" height="30" rx="15" fill="#fff" stroke="#17212B" stroke-width="1"/>
+<text x="1155" y="51" font-size="11" fill="#17212B" font-weight="650" text-anchor="middle" dominant-baseline="middle">∀k  THEOREM · all k≥2</text>
+<rect x="40" y="112" width="610" height="810" rx="8" fill="#FFFFFF" stroke="#D9E0E6" stroke-width="1"/>
+<rect x="56" y="126" width="26" height="26" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="69" y="139" font-size="11" fill="#66727F" font-weight="650" text-anchor="middle" dominant-baseline="middle">A</text>
+<text x="94" y="139" font-size="12" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" letter-spacing="0.8">PIVOT BLOCK COMPATIBILITY</text>
+<text x="632" y="139" font-size="11" fill="#66727F" font-weight="450" text-anchor="end" dominant-baseline="middle">k=4, m=7</text>
+<line x1="56" y1="160" x2="634" y2="160" stroke="#D9E0E6" stroke-width="1"/>
+<rect x="670" y="112" width="610" height="810" rx="8" fill="#FFFFFF" stroke="#D9E0E6" stroke-width="1"/>
+<rect x="686" y="126" width="26" height="26" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="699" y="139" font-size="11" fill="#66727F" font-weight="650" text-anchor="middle" dominant-baseline="middle">B</text>
+<text x="724" y="139" font-size="12" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" letter-spacing="0.8">FORCED STACK TRACES</text>
+<text x="1262" y="139" font-size="11" fill="#66727F" font-weight="450" text-anchor="end" dominant-baseline="middle">success vs first failure</text>
+<line x1="686" y1="160" x2="1264" y2="160" stroke="#D9E0E6" stroke-width="1"/>
+<text x="141.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">1</text>
+<text x="203.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="265.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="327.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="389.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">5</text>
+<text x="451.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">6</text>
+<text x="513.0" y="174" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">7</text>
+<text x="92" y="221.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="110" y="190" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="138.5" y="218.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="172" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="200.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="234" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="262.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="296" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="324.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="358" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="386.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="420" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="448.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="482" y="190" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="510.5" y="218.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="92" y="283.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="110" y="252" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="280.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="252" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="200.5" y="280.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="234" y="252" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="262.5" y="280.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="296" y="252" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="324.5" y="280.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="358" y="252" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="386.5" y="280.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="420" y="252" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="448.5" y="280.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="482" y="252" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="510.5" y="280.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="92" y="345.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">3</text>
+<rect x="110" y="314" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="342.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="314" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="200.5" y="342.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="234" y="314" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="262.5" y="342.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="296" y="314" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="324.5" y="342.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="358" y="314" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="386.5" y="342.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="420" y="314" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="448.5" y="342.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="482" y="314" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="510.5" y="342.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="92" y="407.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">4</text>
+<rect x="110" y="376" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="404.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="376" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="200.5" y="404.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="234" y="376" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="262.5" y="404.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="296" y="376" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="324.5" y="404.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="358" y="376" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="386.5" y="404.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="420" y="376" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="448.5" y="404.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="482" y="376" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="510.5" y="404.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="92" y="469.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">5</text>
+<rect x="110" y="438" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="466.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="438" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="200.5" y="466.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="234" y="438" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="262.5" y="466.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="296" y="438" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="324.5" y="466.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="358" y="438" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="386.5" y="466.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="420" y="438" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="448.5" y="466.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="482" y="438" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="510.5" y="466.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="92" y="531.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">6</text>
+<rect x="110" y="500" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="528.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="500" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="200.5" y="528.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="234" y="500" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="262.5" y="528.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="296" y="500" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="324.5" y="528.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="358" y="500" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="386.5" y="528.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="420" y="500" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="448.5" y="528.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="482" y="500" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="510.5" y="528.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<text x="92" y="593.0" font-size="10.5" fill="#66727F" font-weight="600" text-anchor="middle" dominant-baseline="middle">7</text>
+<rect x="110" y="562" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="138.5" y="590.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="172" y="562" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="200.5" y="590.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="234" y="562" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="262.5" y="590.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="296" y="562" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="324.5" y="590.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="358" y="562" width="57" height="57" rx="5" fill="#fff" stroke="#D9E0E6" stroke-width="1"/>
+<text x="386.5" y="590.5" font-size="14" fill="#B23A48" font-weight="700" text-anchor="middle" dominant-baseline="middle">×</text>
+<rect x="420" y="562" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="448.5" y="590.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<rect x="482" y="562" width="57" height="57" rx="5" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="510.5" y="590.5" font-size="14" fill="#008A67" font-weight="700" text-anchor="middle" dominant-baseline="middle">✓</text>
+<text x="327.0" y="148" font-size="11" fill="#66727F" font-weight="650" text-anchor="middle" dominant-baseline="middle">lower pivot b</text>
+<text x="52" y="407.0" font-size="11" fill="#66727F" font-weight="650" text-anchor="middle" dominant-baseline="middle">upper pivot a</text>
+<text x="90" y="652" font-size="11" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">BR blocks</text>
+<rect x="170" y="639" width="58" height="26" rx="13" fill="#F5F0FC" stroke="#6F42C1" stroke-width="1"/>
+<text x="199.0" y="652" font-size="9.5" fill="#17212B" font-weight="600" text-anchor="middle" dominant-baseline="middle">Q0={1}</text>
+<rect x="238" y="639" width="78" height="26" rx="13" fill="#F7F8FA" stroke="#D9E0E6" stroke-width="1"/>
+<text x="277.0" y="652" font-size="9.5" fill="#17212B" font-weight="600" text-anchor="middle" dominant-baseline="middle">Q1={2,3}</text>
+<rect x="326" y="639" width="78" height="26" rx="13" fill="#F7F8FA" stroke="#D9E0E6" stroke-width="1"/>
+<text x="365.0" y="652" font-size="9.5" fill="#17212B" font-weight="600" text-anchor="middle" dominant-baseline="middle">Q2={4,5}</text>
+<rect x="414" y="639" width="78" height="26" rx="13" fill="#F7F8FA" stroke="#D9E0E6" stroke-width="1"/>
+<text x="453.0" y="652" font-size="9.5" fill="#17212B" font-weight="600" text-anchor="middle" dominant-baseline="middle">Q3={6,7}</text>
+<text x="710" y="176" font-size="10" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle" letter-spacing="0.7">k=3 EXPERT-MVP SENTINELS</text>
+<rect x="710" y="198" width="530" height="270" rx="7" fill="#EAF7F2" stroke="#008A67" stroke-width="1"/>
+<text x="730" y="222" font-size="13" fill="#008A67" font-weight="650" text-anchor="start" dominant-baseline="middle">SUCCESS  (a,b)=(2,3) · BR=1</text>
+<text x="730" y="250" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">STEP</text>
+<text x="778" y="250" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">FACE</text>
+<text x="842" y="250" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">EVENT</text>
+<text x="915" y="250" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">STACK AFTER  (bottom → top)</text>
+<line x1="730" y1="264" x2="1120" y2="264" stroke="#D9E0E6" stroke-width="1"/>
+<text x="730" y="280" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">01</text>
+<text x="778" y="280" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A3</text>
+<text x="842" y="280" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="280" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3</text>
+<text x="730" y="310" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">02</text>
+<text x="778" y="310" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A5</text>
+<text x="842" y="310" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="310" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5</text>
+<text x="730" y="340" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">03</text>
+<text x="778" y="340" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A6</text>
+<text x="842" y="340" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="340" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6</text>
+<text x="730" y="370" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">04</text>
+<text x="778" y="370" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A4</text>
+<text x="842" y="370" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="370" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6 H4</text>
+<text x="730" y="400" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">05</text>
+<text x="778" y="400" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B4</text>
+<text x="842" y="400" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="400" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6</text>
+<text x="730" y="430" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">06</text>
+<text x="778" y="430" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B6</text>
+<text x="842" y="430" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="430" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5</text>
+<text x="730" y="460" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">07</text>
+<text x="778" y="460" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B5</text>
+<text x="842" y="460" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="460" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3</text>
+<text x="730" y="482" font-size="10.5" fill="#66727F" font-weight="550" text-anchor="start" dominant-baseline="middle">… 12 events total. Complete: all faces consumed, stack = ∅.</text>
+<rect x="710" y="510" width="530" height="390" rx="7" fill="#FCEFF1" stroke="#B23A48" stroke-width="1"/>
+<text x="730" y="534" font-size="13" fill="#B23A48" font-weight="650" text-anchor="start" dominant-baseline="middle">FAILURE  (a,b)=(2,4) · BR 1 ≠ 2</text>
+<text x="730" y="562" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">STEP</text>
+<text x="778" y="562" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">FACE</text>
+<text x="842" y="562" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">EVENT</text>
+<text x="915" y="562" font-size="9" fill="#66727F" font-weight="650" text-anchor="start" dominant-baseline="middle">STACK AFTER  (bottom → top)</text>
+<line x1="730" y1="576" x2="1120" y2="576" stroke="#D9E0E6" stroke-width="1"/>
+<text x="730" y="592" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">01</text>
+<text x="778" y="592" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A3</text>
+<text x="842" y="592" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="592" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3</text>
+<text x="730" y="622" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">02</text>
+<text x="778" y="622" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A5</text>
+<text x="842" y="622" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="622" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5</text>
+<text x="730" y="652" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">03</text>
+<text x="778" y="652" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A6</text>
+<text x="842" y="652" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="652" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6</text>
+<text x="730" y="682" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">04</text>
+<text x="778" y="682" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A4</text>
+<text x="842" y="682" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="682" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6 H4</text>
+<text x="730" y="712" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">05</text>
+<text x="778" y="712" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B4</text>
+<text x="842" y="712" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="712" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6</text>
+<text x="730" y="742" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">06</text>
+<text x="778" y="742" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A1</text>
+<text x="842" y="742" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="742" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6 H1</text>
+<text x="730" y="772" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">07</text>
+<text x="778" y="772" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">A2</text>
+<text x="842" y="772" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">PUSH</text>
+<text x="915" y="772" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6 H1 H2</text>
+<text x="730" y="802" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">08</text>
+<text x="778" y="802" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B2</text>
+<text x="842" y="802" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="802" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6 H1</text>
+<text x="730" y="832" font-size="9.5" fill="#66727F" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">09</text>
+<text x="778" y="832" font-size="10.5" fill="#17212B" font-weight="650" text-anchor="start" dominant-baseline="middle" class="mono">B1</text>
+<text x="842" y="832" font-size="10" fill="#2864B7" font-weight="650" text-anchor="start" dominant-baseline="middle">POP</text>
+<text x="915" y="832" font-size="9.5" fill="#17212B" font-weight="500" text-anchor="start" dominant-baseline="middle" class="mono">H3 H5 H6</text>
+<text x="730" y="844" font-size="10.5" fill="#17212B" font-weight="600" text-anchor="start" dominant-baseline="middle">B3 requests H3; stack is H3 H5 H6; top is H6.</text>
+<rect x="724" y="862" width="484" height="34" rx="5" fill="#FFFFFF" stroke="#B23A48" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="742" y="879" font-size="10.5" fill="#B23A48" font-weight="650" text-anchor="start" dominant-baseline="middle">STOP · B3 · BURIED_CLOSER ×</text>
+<text x="730" y="910" font-size="10.5" fill="#B23A48" font-weight="650" text-anchor="start" dominant-baseline="middle">No invented events are shown after first failure.</text>
+<text x="730" y="936" font-size="10" fill="#66727F" font-weight="400" text-anchor="start" dominant-baseline="middle">H-compatible reconstruction is horizontal; full map validity is a separate theorem step.</text>
+</svg>

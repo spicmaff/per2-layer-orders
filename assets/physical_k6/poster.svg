@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F4F6F8"/>
+<text x="48.0" y="60.0" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" fill="#17212B" opacity="1.000">PER2 physical fold · 2×12</text>
+<text x="48.0" y="88.0" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="400" fill="#66727F" opacity="1.000">k=6 · MVMVMV</text>
+<line x1="48.0" y1="120.0" x2="78.0" y2="120.0" stroke="#17212B" stroke-width="2"/>
+<text x="88.0" y="125.0" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="400" fill="#66727F" opacity="1.000">M · solid</text>
+<line x1="185.0" y1="120.0" x2="215.0" y2="120.0" stroke="#17212B" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="225.0" y="125.0" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="400" fill="#66727F" opacity="1.000">V · dashed</text>
+<polygon points="269.5,533.4 378.3,543.9 431.2,488.8 328.0,479.5" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="378.3,543.9 489.5,554.6 536.6,498.4 431.2,488.8" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="489.5,554.6 603.2,565.6 644.2,508.1 536.6,498.4" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="603.2,565.6 719.4,576.8 754.1,518.0 644.2,508.1" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="719.4,576.8 838.3,588.3 866.3,528.2 754.1,518.0" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="838.3,588.3 960.0,600.0 981.0,538.6 866.3,528.2" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="203.6,594.1 318.5,606.0 378.3,543.9 269.5,533.4" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="960.0,600.0 1084.5,612.0 1098.3,549.2 981.0,538.6" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="318.5,606.0 436.2,618.1 489.5,554.6 378.3,543.9" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1084.5,612.0 1212.0,624.3 1218.1,560.1 1098.3,549.2" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="436.2,618.1 556.7,630.6 603.2,565.6 489.5,554.6" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1212.0,624.3 1342.5,636.9 1340.6,571.1 1218.1,560.1" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="556.7,630.6 680.1,643.3 719.4,576.8 603.2,565.6" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1342.5,636.9 1476.2,649.8 1465.9,582.5 1340.6,571.1" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="680.1,643.3 806.6,656.4 838.3,588.3 719.4,576.8" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1476.2,649.8 1613.1,663.0 1594.1,594.1 1465.9,582.5" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="806.6,656.4 936.1,669.8 960.0,600.0 838.3,588.3" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1613.1,663.0 1753.5,676.6 1725.2,606.0 1594.1,594.1" fill="#EAF4FB" stroke="#0072B2" stroke-width="2"/>
+<polygon points="936.1,669.8 1068.9,683.5 1084.5,612.0 960.0,600.0" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1068.9,683.5 1205.0,697.5 1212.0,624.3 1084.5,612.0" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1205.0,697.5 1344.7,711.9 1342.5,636.9 1212.0,624.3" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1344.7,711.9 1487.9,726.7 1476.2,649.8 1342.5,636.9" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1487.9,726.7 1634.9,741.9 1613.1,663.0 1476.2,649.8" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<polygon points="1634.9,741.9 1785.9,757.5 1753.5,676.6 1613.1,663.0" fill="#FDF0E7" stroke="#D55E00" stroke-width="2"/>
+<line x1="318.5" y1="606.0" x2="378.3" y2="543.9" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="436.2" y1="618.1" x2="489.5" y2="554.6" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="556.7" y1="630.6" x2="603.2" y2="565.6" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="680.1" y1="643.3" x2="719.4" y2="576.8" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="806.6" y1="656.4" x2="838.3" y2="588.3" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="936.1" y1="669.8" x2="960.0" y2="600.0" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1068.9" y1="683.5" x2="1084.5" y2="612.0" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1205.0" y1="697.5" x2="1212.0" y2="624.3" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1344.7" y1="711.9" x2="1342.5" y2="636.9" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1487.9" y1="726.7" x2="1476.2" y2="649.8" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1634.9" y1="741.9" x2="1613.1" y2="663.0" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="269.5" y1="533.4" x2="378.3" y2="543.9" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="378.3" y1="543.9" x2="489.5" y2="554.6" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="378.3" y1="543.9" x2="431.2" y2="488.8" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="489.5" y1="554.6" x2="603.2" y2="565.6" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="489.5" y1="554.6" x2="536.6" y2="498.4" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="603.2" y1="565.6" x2="719.4" y2="576.8" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="603.2" y1="565.6" x2="644.2" y2="508.1" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="719.4" y1="576.8" x2="838.3" y2="588.3" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="719.4" y1="576.8" x2="754.1" y2="518.0" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="838.3" y1="588.3" x2="960.0" y2="600.0" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="838.3" y1="588.3" x2="866.3" y2="528.2" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="960.0" y1="600.0" x2="1084.5" y2="612.0" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="960.0" y1="600.0" x2="981.0" y2="538.6" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1084.5" y1="612.0" x2="1212.0" y2="624.3" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1084.5" y1="612.0" x2="1098.3" y2="549.2" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1212.0" y1="624.3" x2="1342.5" y2="636.9" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1212.0" y1="624.3" x2="1218.1" y2="560.1" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1342.5" y1="636.9" x2="1476.2" y2="649.8" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1342.5" y1="636.9" x2="1340.6" y2="571.1" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1476.2" y1="649.8" x2="1613.1" y2="663.0" stroke="#AAB3BC" stroke-width="2"/>
+<line x1="1476.2" y1="649.8" x2="1465.9" y2="582.5" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1613.1" y1="663.0" x2="1753.5" y2="676.6" stroke="#AAB3BC" stroke-width="2" stroke-dasharray="9 6"/>
+<line x1="1613.1" y1="663.0" x2="1594.1" y2="594.1" stroke="#AAB3BC" stroke-width="2"/>
+<text x="352.3" y="516.6" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A1</text>
+<text x="459.3" y="526.6" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A2</text>
+<text x="568.7" y="536.8" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A3</text>
+<text x="680.5" y="547.2" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A4</text>
+<text x="794.7" y="557.9" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A5</text>
+<text x="911.5" y="568.8" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A6</text>
+<text x="1030.9" y="580.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A7</text>
+<text x="1153.0" y="591.4" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A8</text>
+<text x="1278.0" y="603.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A9</text>
+<text x="1405.8" y="615.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A10</text>
+<text x="1536.7" y="627.2" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A11</text>
+<text x="1670.7" y="639.7" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#0072B2" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">A12</text>
+<text x="293.1" y="574.3" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B1</text>
+<text x="406.2" y="585.6" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B2</text>
+<text x="521.9" y="597.2" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B3</text>
+<text x="640.2" y="609.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B4</text>
+<text x="761.3" y="621.1" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B5</text>
+<text x="885.3" y="633.4" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B6</text>
+<text x="1012.3" y="646.1" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B7</text>
+<text x="1142.4" y="659.1" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B8</text>
+<text x="1275.7" y="672.4" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B9</text>
+<text x="1412.3" y="686.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B10</text>
+<text x="1552.3" y="700.0" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B11</text>
+<text x="1695.9" y="714.3" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="18" font-weight="700" fill="#D55E00" opacity="1.000" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">B12</text>
+<text x="48.0" y="1040.0" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="400" fill="#66727F" opacity="1.000">Verified simple-fold sequence · ideal zero-thickness model</text>
+</svg>

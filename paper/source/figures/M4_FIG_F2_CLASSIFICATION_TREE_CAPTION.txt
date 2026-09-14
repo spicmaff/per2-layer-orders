@@ -1,0 +1,1 @@
+Decision diagram for the exact state-set classification. Local admissibility is tested first by $\delta_0$ and $\delta_1$; $\tau$ separates the pleat and constant-row regimes, and $\rho$ separates the two constant-row canonical families. Counts are deliberately omitted because exact labelled state sets are primary.

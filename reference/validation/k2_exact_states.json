@@ -1,0 +1,3509 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "per2.validation.k2_exact_states",
+  "provenance": {
+    "epistemic_role": "independent_finite_validation",
+    "generation_path": "per2.semantics.enumeration",
+    "k": 2,
+    "oracle": "PER2_FINAL_LAYER_ORDER_SEMANTICS"
+  },
+  "total_states": 56,
+  "words": [
+    {
+      "word": "MMMMMM",
+      "states": []
+    },
+    {
+      "word": "MMMMMV",
+      "states": []
+    },
+    {
+      "word": "MMMMVM",
+      "states": []
+    },
+    {
+      "word": "MMMMVV",
+      "states": [
+        {
+          "state_id": "k2:MMMMVV:ac278685c623482e",
+          "order_labels": [
+            "A1",
+            "A3",
+            "B3",
+            "B1",
+            "B2",
+            "B4",
+            "A4",
+            "A2"
+          ],
+          "order_ids": [
+            0,
+            2,
+            6,
+            4,
+            5,
+            7,
+            3,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:1a5417c6657876b4",
+          "order_labels": [
+            "A1",
+            "A3",
+            "B3",
+            "B4",
+            "A4",
+            "B1",
+            "B2",
+            "A2"
+          ],
+          "order_ids": [
+            0,
+            2,
+            6,
+            7,
+            3,
+            4,
+            5,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:5322b07bf219956a",
+          "order_labels": [
+            "A1",
+            "B1",
+            "A3",
+            "B3",
+            "B4",
+            "A4",
+            "B2",
+            "A2"
+          ],
+          "order_ids": [
+            0,
+            4,
+            2,
+            6,
+            7,
+            3,
+            5,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:fa58143d18e7c57b",
+          "order_labels": [
+            "A3",
+            "A1",
+            "B1",
+            "B3",
+            "B4",
+            "B2",
+            "A2",
+            "A4"
+          ],
+          "order_ids": [
+            2,
+            0,
+            4,
+            6,
+            7,
+            5,
+            1,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:266825001ace187d",
+          "order_labels": [
+            "A3",
+            "B3",
+            "A1",
+            "B1",
+            "B2",
+            "A2",
+            "B4",
+            "A4"
+          ],
+          "order_ids": [
+            2,
+            6,
+            0,
+            4,
+            5,
+            1,
+            7,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:aa879287b36d1b5f",
+          "order_labels": [
+            "A3",
+            "B3",
+            "B4",
+            "A1",
+            "B1",
+            "B2",
+            "A2",
+            "A4"
+          ],
+          "order_ids": [
+            2,
+            6,
+            7,
+            0,
+            4,
+            5,
+            1,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMMMVV:8030b0b22b531d27",
+          "order_labels": [
+            "A3",
+            "B3",
+            "B4",
+            "A4",
+            "A1",
+            "B1",
+            "B2",
+            "A2"
+          ],
+          "order_ids": [
+            2,
+            6,
+            7,
+            3,
+            0,
+            4,
+            5,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMMVV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MMMVMM",
+      "states": []
+    },
+    {
+      "word": "MMMVMV",
+      "states": []
+    },
+    {
+      "word": "MMMVVM",
+      "states": [
+        {
+          "state_id": "k2:MMMVVM:e605f97b85492209",
+          "order_labels": [
+            "A1",
+            "B1",
+            "B2",
+            "A2",
+            "A3",
+            "B3",
+            "B4",
+            "A4"
+          ],
+          "order_ids": [
+            0,
+            4,
+            5,
+            1,
+            2,
+            6,
+            7,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A2",
+              "A3",
+              "A4"
+            ],
+            "lower": [
+              "B1",
+              "B2",
+              "B3",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMMVVM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MMMVVV",
+      "states": []
+    },
+    {
+      "word": "MMVMMM",
+      "states": []
+    },
+    {
+      "word": "MMVMMV",
+      "states": [
+        {
+          "state_id": "k2:MMVMMV:9cbcd2b95067afc3",
+          "order_labels": [
+            "B4",
+            "A4",
+            "A3",
+            "B3",
+            "B2",
+            "A2",
+            "A1",
+            "B1"
+          ],
+          "order_ids": [
+            7,
+            3,
+            2,
+            6,
+            5,
+            1,
+            0,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A3",
+              "A2",
+              "A1"
+            ],
+            "lower": [
+              "B4",
+              "B3",
+              "B2",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVMMV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MMVMVM",
+      "states": []
+    },
+    {
+      "word": "MMVMVV",
+      "states": []
+    },
+    {
+      "word": "MMVVMM",
+      "states": [
+        {
+          "state_id": "k2:MMVVMM:b4676d8131df0b34",
+          "order_labels": [
+            "B2",
+            "A2",
+            "A1",
+            "B1",
+            "B4",
+            "A4",
+            "A3",
+            "B3"
+          ],
+          "order_ids": [
+            5,
+            1,
+            0,
+            4,
+            7,
+            3,
+            2,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:75576f57ad947570",
+          "order_labels": [
+            "B2",
+            "A2",
+            "A1",
+            "B4",
+            "A4",
+            "A3",
+            "B3",
+            "B1"
+          ],
+          "order_ids": [
+            5,
+            1,
+            0,
+            7,
+            3,
+            2,
+            6,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:bfdfb2c884fdcf43",
+          "order_labels": [
+            "B2",
+            "A2",
+            "B4",
+            "A4",
+            "A3",
+            "B3",
+            "A1",
+            "B1"
+          ],
+          "order_ids": [
+            5,
+            1,
+            7,
+            3,
+            2,
+            6,
+            0,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:23043fdf53254cd7",
+          "order_labels": [
+            "B2",
+            "B4",
+            "A4",
+            "A2",
+            "A1",
+            "A3",
+            "B3",
+            "B1"
+          ],
+          "order_ids": [
+            5,
+            7,
+            3,
+            1,
+            0,
+            2,
+            6,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:b9d885f4777f78a8",
+          "order_labels": [
+            "B4",
+            "A4",
+            "B2",
+            "A2",
+            "A1",
+            "B1",
+            "A3",
+            "B3"
+          ],
+          "order_ids": [
+            7,
+            3,
+            5,
+            1,
+            0,
+            4,
+            2,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:d453952654aa2f93",
+          "order_labels": [
+            "B4",
+            "B2",
+            "A2",
+            "A1",
+            "B1",
+            "A4",
+            "A3",
+            "B3"
+          ],
+          "order_ids": [
+            7,
+            5,
+            1,
+            0,
+            4,
+            3,
+            2,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MMVVMM:cb35973e70d32bc1",
+          "order_labels": [
+            "B4",
+            "B2",
+            "A2",
+            "A4",
+            "A3",
+            "A1",
+            "B1",
+            "B3"
+          ],
+          "order_ids": [
+            7,
+            5,
+            1,
+            3,
+            2,
+            0,
+            4,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MMVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MMVVMM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MMVVMV",
+      "states": []
+    },
+    {
+      "word": "MMVVVM",
+      "states": []
+    },
+    {
+      "word": "MMVVVV",
+      "states": []
+    },
+    {
+      "word": "MVMMMM",
+      "states": [
+        {
+          "state_id": "k2:MVMMMM:2e636000c9541072",
+          "order_labels": [
+            "A1",
+            "A3",
+            "A4",
+            "A2",
+            "B2",
+            "B4",
+            "B3",
+            "B1"
+          ],
+          "order_ids": [
+            0,
+            2,
+            3,
+            1,
+            5,
+            7,
+            6,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVMMMM:ec7e202bc68a7609",
+          "order_labels": [
+            "A3",
+            "A1",
+            "A2",
+            "A4",
+            "B4",
+            "B2",
+            "B1",
+            "B3"
+          ],
+          "order_ids": [
+            2,
+            0,
+            1,
+            3,
+            7,
+            5,
+            4,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVMMMM:5cdb74a29f97946f",
+          "order_labels": [
+            "A3",
+            "A1",
+            "A2",
+            "B2",
+            "B1",
+            "A4",
+            "B4",
+            "B3"
+          ],
+          "order_ids": [
+            2,
+            0,
+            1,
+            5,
+            4,
+            3,
+            7,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVMMMM:c382d47dc97c808e",
+          "order_labels": [
+            "A3",
+            "A4",
+            "A1",
+            "A2",
+            "B2",
+            "B1",
+            "B4",
+            "B3"
+          ],
+          "order_ids": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            4,
+            7,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVMMMM:64bc4ab09e4e6d77",
+          "order_labels": [
+            "A3",
+            "A4",
+            "B4",
+            "A1",
+            "A2",
+            "B2",
+            "B1",
+            "B3"
+          ],
+          "order_ids": [
+            2,
+            3,
+            7,
+            0,
+            1,
+            5,
+            4,
+            6
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMMMM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MVMMMV",
+      "states": []
+    },
+    {
+      "word": "MVMMVM",
+      "states": []
+    },
+    {
+      "word": "MVMMVV",
+      "states": []
+    },
+    {
+      "word": "MVMVMM",
+      "states": []
+    },
+    {
+      "word": "MVMVMV",
+      "states": [
+        {
+          "state_id": "k2:MVMVMV:b4bc17bedbf8dee2",
+          "order_labels": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "B4",
+            "B3",
+            "B2",
+            "B1"
+          ],
+          "order_ids": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            6,
+            5,
+            4
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A2",
+              "A3",
+              "A4"
+            ],
+            "lower": [
+              "B4",
+              "B3",
+              "B2",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVMVMV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MVMVVM",
+      "states": []
+    },
+    {
+      "word": "MVMVVV",
+      "states": []
+    },
+    {
+      "word": "MVVMMM",
+      "states": []
+    },
+    {
+      "word": "MVVMMV",
+      "states": []
+    },
+    {
+      "word": "MVVMVM",
+      "states": [
+        {
+          "state_id": "k2:MVVMVM:0acb9e2d1f76834d",
+          "order_labels": [
+            "A4",
+            "A3",
+            "A2",
+            "A1",
+            "B1",
+            "B2",
+            "B3",
+            "B4"
+          ],
+          "order_ids": [
+            3,
+            2,
+            1,
+            0,
+            4,
+            5,
+            6,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A3",
+              "A2",
+              "A1"
+            ],
+            "lower": [
+              "B1",
+              "B2",
+              "B3",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVMVM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "MVVMVV",
+      "states": []
+    },
+    {
+      "word": "MVVVMM",
+      "states": []
+    },
+    {
+      "word": "MVVVMV",
+      "states": []
+    },
+    {
+      "word": "MVVVVM",
+      "states": []
+    },
+    {
+      "word": "MVVVVV",
+      "states": [
+        {
+          "state_id": "k2:MVVVVV:77734b29fa67c1e4",
+          "order_labels": [
+            "A2",
+            "A1",
+            "A4",
+            "A3",
+            "B3",
+            "B4",
+            "B1",
+            "B2"
+          ],
+          "order_ids": [
+            1,
+            0,
+            3,
+            2,
+            6,
+            7,
+            4,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVVVVV:e6f174e0e68b4213",
+          "order_labels": [
+            "A2",
+            "A1",
+            "B1",
+            "A4",
+            "A3",
+            "B3",
+            "B4",
+            "B2"
+          ],
+          "order_ids": [
+            1,
+            0,
+            4,
+            3,
+            2,
+            6,
+            7,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVVVVV:fb60bd07f38ec69b",
+          "order_labels": [
+            "A2",
+            "A4",
+            "A3",
+            "A1",
+            "B1",
+            "B3",
+            "B4",
+            "B2"
+          ],
+          "order_ids": [
+            1,
+            3,
+            2,
+            0,
+            4,
+            6,
+            7,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVVVVV:c953019016d84cee",
+          "order_labels": [
+            "A2",
+            "A4",
+            "A3",
+            "B3",
+            "B4",
+            "A1",
+            "B1",
+            "B2"
+          ],
+          "order_ids": [
+            1,
+            3,
+            2,
+            6,
+            7,
+            0,
+            4,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:MVVVVV:6eaac4da175edd7e",
+          "order_labels": [
+            "A4",
+            "A2",
+            "A1",
+            "A3",
+            "B3",
+            "B1",
+            "B2",
+            "B4"
+          ],
+          "order_ids": [
+            3,
+            1,
+            0,
+            2,
+            6,
+            4,
+            5,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "MVVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "MVVVVV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VMMMMM",
+      "states": [
+        {
+          "state_id": "k2:VMMMMM:e44d1083893c569c",
+          "order_labels": [
+            "B2",
+            "B1",
+            "A1",
+            "B4",
+            "B3",
+            "A3",
+            "A4",
+            "A2"
+          ],
+          "order_ids": [
+            5,
+            4,
+            0,
+            7,
+            6,
+            2,
+            3,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMMMMM:c4a872a7ea3e80a2",
+          "order_labels": [
+            "B2",
+            "B1",
+            "B4",
+            "B3",
+            "A3",
+            "A4",
+            "A1",
+            "A2"
+          ],
+          "order_ids": [
+            5,
+            4,
+            7,
+            6,
+            2,
+            3,
+            0,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMMMMM:9ce207611d0106ca",
+          "order_labels": [
+            "B2",
+            "B4",
+            "B3",
+            "A3",
+            "A4",
+            "B1",
+            "A1",
+            "A2"
+          ],
+          "order_ids": [
+            5,
+            7,
+            6,
+            2,
+            3,
+            4,
+            0,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMMMMM:07f4b624aa864194",
+          "order_labels": [
+            "B2",
+            "B4",
+            "B3",
+            "B1",
+            "A1",
+            "A3",
+            "A4",
+            "A2"
+          ],
+          "order_ids": [
+            5,
+            7,
+            6,
+            4,
+            0,
+            2,
+            3,
+            1
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMMMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMMMMM:94de213f17d0478e",
+          "order_labels": [
+            "B4",
+            "B2",
+            "B1",
+            "B3",
+            "A3",
+            "A1",
+            "A2",
+            "A4"
+          ],
+          "order_ids": [
+            7,
+            5,
+            4,
+            6,
+            2,
+            0,
+            1,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMMMMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMMMM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VMMMMV",
+      "states": []
+    },
+    {
+      "word": "VMMMVM",
+      "states": []
+    },
+    {
+      "word": "VMMMVV",
+      "states": []
+    },
+    {
+      "word": "VMMVMM",
+      "states": []
+    },
+    {
+      "word": "VMMVMV",
+      "states": [
+        {
+          "state_id": "k2:VMMVMV:01d20fe6d6bcde20",
+          "order_labels": [
+            "B4",
+            "B3",
+            "B2",
+            "B1",
+            "A1",
+            "A2",
+            "A3",
+            "A4"
+          ],
+          "order_ids": [
+            7,
+            6,
+            5,
+            4,
+            0,
+            1,
+            2,
+            3
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A2",
+              "A3",
+              "A4"
+            ],
+            "lower": [
+              "B4",
+              "B3",
+              "B2",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMMVMV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VMMVVM",
+      "states": []
+    },
+    {
+      "word": "VMMVVV",
+      "states": []
+    },
+    {
+      "word": "VMVMMM",
+      "states": []
+    },
+    {
+      "word": "VMVMMV",
+      "states": []
+    },
+    {
+      "word": "VMVMVM",
+      "states": [
+        {
+          "state_id": "k2:VMVMVM:299540a7c8851049",
+          "order_labels": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "A4",
+            "A3",
+            "A2",
+            "A1"
+          ],
+          "order_ids": [
+            4,
+            5,
+            6,
+            7,
+            3,
+            2,
+            1,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A3",
+              "A2",
+              "A1"
+            ],
+            "lower": [
+              "B1",
+              "B2",
+              "B3",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVMVM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VMVMVV",
+      "states": []
+    },
+    {
+      "word": "VMVVMM",
+      "states": []
+    },
+    {
+      "word": "VMVVMV",
+      "states": []
+    },
+    {
+      "word": "VMVVVM",
+      "states": []
+    },
+    {
+      "word": "VMVVVV",
+      "states": [
+        {
+          "state_id": "k2:VMVVVV:bdfafd324fadbdb2",
+          "order_labels": [
+            "B1",
+            "B3",
+            "B4",
+            "B2",
+            "A2",
+            "A4",
+            "A3",
+            "A1"
+          ],
+          "order_ids": [
+            4,
+            6,
+            7,
+            5,
+            1,
+            3,
+            2,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMVVVV:42acae8bc67479b8",
+          "order_labels": [
+            "B3",
+            "B1",
+            "B2",
+            "A2",
+            "A1",
+            "B4",
+            "A4",
+            "A3"
+          ],
+          "order_ids": [
+            6,
+            4,
+            5,
+            1,
+            0,
+            7,
+            3,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMVVVV:0ad372c25915c9e1",
+          "order_labels": [
+            "B3",
+            "B1",
+            "B2",
+            "B4",
+            "A4",
+            "A2",
+            "A1",
+            "A3"
+          ],
+          "order_ids": [
+            6,
+            4,
+            5,
+            7,
+            3,
+            1,
+            0,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMVVVV:4bd97790ff955fb0",
+          "order_labels": [
+            "B3",
+            "B4",
+            "A4",
+            "B1",
+            "B2",
+            "A2",
+            "A1",
+            "A3"
+          ],
+          "order_ids": [
+            6,
+            7,
+            3,
+            4,
+            5,
+            1,
+            0,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVVVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VMVVVV:8dd1d9112fe22878",
+          "order_labels": [
+            "B3",
+            "B4",
+            "B1",
+            "B2",
+            "A2",
+            "A1",
+            "A4",
+            "A3"
+          ],
+          "order_ids": [
+            6,
+            7,
+            4,
+            5,
+            1,
+            0,
+            3,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VMVVVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VMVVVV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VVMMMM",
+      "states": []
+    },
+    {
+      "word": "VVMMMV",
+      "states": []
+    },
+    {
+      "word": "VVMMVM",
+      "states": []
+    },
+    {
+      "word": "VVMMVV",
+      "states": [
+        {
+          "state_id": "k2:VVMMVV:acf41b8ed48e8b8a",
+          "order_labels": [
+            "B1",
+            "A1",
+            "B3",
+            "A3",
+            "A4",
+            "B4",
+            "A2",
+            "B2"
+          ],
+          "order_ids": [
+            4,
+            0,
+            6,
+            2,
+            3,
+            7,
+            1,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:8150e93d3252871a",
+          "order_labels": [
+            "B1",
+            "B3",
+            "A3",
+            "A1",
+            "A2",
+            "A4",
+            "B4",
+            "B2"
+          ],
+          "order_ids": [
+            4,
+            6,
+            2,
+            0,
+            1,
+            3,
+            7,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:1a4c314681f9c3c7",
+          "order_labels": [
+            "B1",
+            "B3",
+            "A3",
+            "A4",
+            "B4",
+            "A1",
+            "A2",
+            "B2"
+          ],
+          "order_ids": [
+            4,
+            6,
+            2,
+            3,
+            7,
+            0,
+            1,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B1",
+              "B3",
+              "B4",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:8feef5eba38e944c",
+          "order_labels": [
+            "B3",
+            "A3",
+            "A4",
+            "B1",
+            "A1",
+            "A2",
+            "B2",
+            "B4"
+          ],
+          "order_ids": [
+            6,
+            2,
+            3,
+            4,
+            0,
+            1,
+            5,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:723c539b24727207",
+          "order_labels": [
+            "B3",
+            "A3",
+            "A4",
+            "B4",
+            "B1",
+            "A1",
+            "A2",
+            "B2"
+          ],
+          "order_ids": [
+            6,
+            2,
+            3,
+            7,
+            4,
+            0,
+            1,
+            5
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A4",
+              "A1",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B4",
+              "B1",
+              "B2"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:37258f983d5b2a1b",
+          "order_labels": [
+            "B3",
+            "A3",
+            "B1",
+            "A1",
+            "A2",
+            "B2",
+            "A4",
+            "B4"
+          ],
+          "order_ids": [
+            6,
+            2,
+            4,
+            0,
+            1,
+            5,
+            3,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A3",
+              "A1",
+              "A2",
+              "A4"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVMMVV:f2242b5f4220d837",
+          "order_labels": [
+            "B3",
+            "B1",
+            "A1",
+            "A3",
+            "A4",
+            "A2",
+            "B2",
+            "B4"
+          ],
+          "order_ids": [
+            6,
+            4,
+            0,
+            2,
+            3,
+            1,
+            5,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A3",
+              "A4",
+              "A2"
+            ],
+            "lower": [
+              "B3",
+              "B1",
+              "B2",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVMMVV",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMMVV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VVMVMM",
+      "states": []
+    },
+    {
+      "word": "VVMVMV",
+      "states": []
+    },
+    {
+      "word": "VVMVVM",
+      "states": [
+        {
+          "state_id": "k2:VVMVVM:a5653478ea14e256",
+          "order_labels": [
+            "B1",
+            "A1",
+            "A2",
+            "B2",
+            "B3",
+            "A3",
+            "A4",
+            "B4"
+          ],
+          "order_ids": [
+            4,
+            0,
+            1,
+            5,
+            6,
+            2,
+            3,
+            7
+          ],
+          "row_orders": {
+            "upper": [
+              "A1",
+              "A2",
+              "A3",
+              "A4"
+            ],
+            "lower": [
+              "B1",
+              "B2",
+              "B3",
+              "B4"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVMVVM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VVMVVV",
+      "states": []
+    },
+    {
+      "word": "VVVMMM",
+      "states": []
+    },
+    {
+      "word": "VVVMMV",
+      "states": [
+        {
+          "state_id": "k2:VVVMMV:a195b0d8ef18bbb0",
+          "order_labels": [
+            "A4",
+            "B4",
+            "B3",
+            "A3",
+            "A2",
+            "B2",
+            "B1",
+            "A1"
+          ],
+          "order_ids": [
+            3,
+            7,
+            6,
+            2,
+            1,
+            5,
+            4,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A3",
+              "A2",
+              "A1"
+            ],
+            "lower": [
+              "B4",
+              "B3",
+              "B2",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": null
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVMMV"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VVVMVM",
+      "states": []
+    },
+    {
+      "word": "VVVMVV",
+      "states": []
+    },
+    {
+      "word": "VVVVMM",
+      "states": [
+        {
+          "state_id": "k2:VVVVMM:77bf17a78cde4f5d",
+          "order_labels": [
+            "A2",
+            "A4",
+            "B4",
+            "B2",
+            "B1",
+            "B3",
+            "A3",
+            "A1"
+          ],
+          "order_ids": [
+            1,
+            3,
+            7,
+            5,
+            4,
+            6,
+            2,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:4aad591217c8653d",
+          "order_labels": [
+            "A2",
+            "B2",
+            "A4",
+            "B4",
+            "B3",
+            "A3",
+            "B1",
+            "A1"
+          ],
+          "order_ids": [
+            1,
+            5,
+            3,
+            7,
+            6,
+            2,
+            4,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:28a473eb5af3543f",
+          "order_labels": [
+            "A2",
+            "B2",
+            "B1",
+            "A1",
+            "A4",
+            "B4",
+            "B3",
+            "A3"
+          ],
+          "order_ids": [
+            1,
+            5,
+            4,
+            0,
+            3,
+            7,
+            6,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A1",
+              "A4",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 2,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:a5e84b8445ebf42f",
+          "order_labels": [
+            "A2",
+            "B2",
+            "B1",
+            "A4",
+            "B4",
+            "B3",
+            "A3",
+            "A1"
+          ],
+          "order_ids": [
+            1,
+            5,
+            4,
+            3,
+            7,
+            6,
+            2,
+            0
+          ],
+          "row_orders": {
+            "upper": [
+              "A2",
+              "A4",
+              "A3",
+              "A1"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 1,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:9c6ea7124042010d",
+          "order_labels": [
+            "A4",
+            "A2",
+            "B2",
+            "B1",
+            "A1",
+            "B4",
+            "B3",
+            "A3"
+          ],
+          "order_ids": [
+            3,
+            1,
+            5,
+            4,
+            0,
+            7,
+            6,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B1",
+              "B4",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 2
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:c2ccf2c3dbf13680",
+          "order_labels": [
+            "A4",
+            "A2",
+            "B2",
+            "B4",
+            "B3",
+            "B1",
+            "A1",
+            "A3"
+          ],
+          "order_ids": [
+            3,
+            1,
+            5,
+            7,
+            6,
+            4,
+            0,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B2",
+              "B4",
+              "B3",
+              "B1"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 1
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        },
+        {
+          "state_id": "k2:VVVVMM:73d5107d3f873873",
+          "order_labels": [
+            "A4",
+            "B4",
+            "A2",
+            "B2",
+            "B1",
+            "A1",
+            "B3",
+            "A3"
+          ],
+          "order_ids": [
+            3,
+            7,
+            1,
+            5,
+            4,
+            0,
+            6,
+            2
+          ],
+          "row_orders": {
+            "upper": [
+              "A4",
+              "A2",
+              "A1",
+              "A3"
+            ],
+            "lower": [
+              "B4",
+              "B2",
+              "B1",
+              "B3"
+            ]
+          },
+          "features": {
+            "pivots": {
+              "upper": 3,
+              "lower": 3
+            },
+            "pivots_provenance": {
+              "epistemic_role": "theorem_derived",
+              "generation_path": "per2.theory.pivots.recover_pivots",
+              "k": 2,
+              "word": "VVVVMM",
+              "scope": "annotation on independently enumerated state"
+            }
+          },
+          "semantic_validation": {
+            "accepted": true,
+            "provenance": {
+              "epistemic_role": "independent_finite_validation",
+              "generation_path": "per2.semantics.validity.validate_state",
+              "k": 2,
+              "word": "VVVVMM"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "word": "VVVVMV",
+      "states": []
+    },
+    {
+      "word": "VVVVVM",
+      "states": []
+    },
+    {
+      "word": "VVVVVV",
+      "states": []
+    }
+  ]
+}

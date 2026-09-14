@@ -1,0 +1,107 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\appendix
+\section{Row-Local Normal Forms and the Local/Global Scope Boundary}\label{appendix-a.-row-local-normal-forms-and-the-localglobal-scope-boundary}
+
+This appendix proves Proposition 6.1 using only row-local directed
+precedences and same-target vertical noncrossing.
+
+\subsection{A.1. Adjacent-span
+trichotomy}\label{a.1.-adjacent-span-trichotomy}
+
+For effective sign \(+\), put \(J_i=(O_i,D_i)\). For adjacent
+\(J_i,J_{i+1}\), the directed inequalities are \(O_i\prec D_i\),
+\(O_{i+1}\prec D_{i+1}\), and \(O_{i+1}\prec D_i\). Of the six total
+orders compatible with the first two inequalities, one disjoint order
+contradicts \(O_{i+1}\prec D_i\) and the two alternating orders are
+forbidden by Butterfly noncrossing. The only possibilities are \[
+\mathsf{L}_i: O_{i+1}\prec O_i\prec D_i\prec D_{i+1},
+\] \[
+\mathsf{R}_i: O_i\prec O_{i+1}\prec D_{i+1}\prec D_i,
+\] \[
+\mathsf{C}_i: O_{i+1}\prec D_{i+1}\prec O_i\prec D_i.
+\]
+
+\subsection{A.2. Relation-word normal
+form}\label{a.2.-relation-word-normal-form}
+
+Let \(K_i=(O_{i+1},D_i)\) be the even-seam span. For consecutive
+relation symbols, each of
+\((\mathsf R,\mathsf L),(\mathsf R,\mathsf C),(\mathsf C,\mathsf L),(\mathsf C,\mathsf C)\)
+forces strict alternation of \(K_i\) and \(K_{i+1}\) and is therefore
+impossible. Hence every admissible relation word is exactly \[
+\mathsf L^*\mathsf R^*\qquad\text{or}\qquad \mathsf L^*\mathsf C\mathsf R^*.
+\]
+
+A relation word
+\(\mathsf L_1\cdots \mathsf L_{s-1}\mathsf R_s\cdots \mathsf R_{k-1}\)
+forces two nested chains around \(O_s,D_s\). At an interior junction,
+putting \(O_{s+1}\) before \(D_{s-1}\) would make \(K_{s-1}\) and
+\(K_s\) alternate, so \(D_{s-1}\prec O_{s+1}\). This fixes the entire
+order as \(R^+(k,2s-1)\).
+
+A relation word
+\(\mathsf L_1\cdots \mathsf L_{s-1}\mathsf C_s\mathsf R_{s+1}\cdots \mathsf R_{k-1}\)
+has the right block wholly before the left block because \(\mathsf C_s\)
+gives \(D_{s+1}\prec O_s\). This fixes the order as \(R^+(k,2s)\).
+
+Thus every row-local \(+\) order is one of the explicit normal forms.
+
+\subsection{A.3. Sufficiency of the normal
+forms}\label{a.3.-sufficiency-of-the-normal-forms}
+
+In each odd-pivot normal form, all \(O_i\prec D_i\) and
+\(O_{i+1}\prec D_i\) inequalities are immediate from the two monotone
+blocks around the central pair. The \(J\) spans form two nested chains,
+mutually disjoint except for the central containing span; the \(K\)
+spans similarly form two nested chains. Hence every required same-target
+pair is noncrossing.
+
+For an even pivot, the right block precedes the left block. The directed
+inequalities again hold, including the central even-seam inequality. The
+\(J\) spans split into two nested chains separated by the central
+\(\mathsf C\) relation. The span \(K_s\) contains the whole order, while
+the remaining \(K\) spans form two nested chains inside it. Thus all
+row-local constraints hold.
+
+Therefore \[
+R_{\mathrm{loc}}^+(k)=\{R^+(k,p):1\le p\le2k-1\}.
+\] Literal reversal reverses every directed inequality and preserves
+endpoint alternation, giving \[
+R_{\mathrm{loc}}^-(k)=\{R^-(k,p):1\le p\le2k-1\}.
+\]
+
+\subsection{A.4. Pivot uniqueness}\label{a.4.-pivot-uniqueness}
+
+For \(p=2s-1\), the first and last faces are \(O_s\) and \(D_s\), the
+wings of seam \(2s-1\). For \(p=2s\), they are \(O_{s+1}\) and \(D_s\),
+the wings of seam \(2s\). Hence the extreme pair identifies one physical
+seam and therefore one pivot. Reversal exchanges first and last but
+preserves the same seam.
+
+\subsection{A.5. Local/global firewall}\label{a.5.-localglobal-firewall}
+
+Every global state restricts to a row order satisfying the row-local
+directed and Butterfly constraints. Therefore \[
+R_{\mathrm{glob}}^{P,r}(k)\subseteq R_{\mathrm{loc}}^\sigma(k).
+\] No reverse inclusion follows from the argument above. In particular,
+the row-local count \(2k-1\) does not imply that all \(2k-1\) pivots
+occur globally for an arbitrary period word. Global realization is
+supplied only by the downstream canonical compatibility theorem in a
+family where it has actually been proved.
+
+\end{document}

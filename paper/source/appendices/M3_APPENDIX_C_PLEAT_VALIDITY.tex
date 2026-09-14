@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\appendix
+\section{Full Validity of the Canonical Pleat Orders}\label{appendix-c.-full-validity-of-the-canonical-pleat-orders}
+
+The Hamiltonian arguments in Theorem 5.1 prove uniqueness among
+precedence-compatible orders. This appendix proves existence by checking
+every Butterfly family at arbitrary separation.
+
+\subsection{\texorpdfstring{C.1. The order
+\(\Omega_+(k)\)}{C.1. The order \textbackslash Omega\_+(k)}}\label{c.1.-the-order-omega_k}
+
+For \(1\le q\le k\) the positions are \[
+\operatorname{pos}(A_{2q-1})=4q-3,\quad
+\operatorname{pos}(B_{2q-1})=4q-2,
+\] \[
+\operatorname{pos}(B_{2q})=4q-1,\quad
+\operatorname{pos}(A_{2q})=4q.
+\] All primitive M/V precedences point forward in this order. The sorted
+endpoint intervals are \[
+I(H_{2q-1})=[4q-3,4q-2],\qquad I(H_{2q})=[4q-1,4q],
+\] \[
+I(U_{2q-1})=[4q-3,4q],\qquad I(U_{2q})=[4q,4q+1],
+\] \[
+I(L_{2q-1})=[4q-2,4q-1],\qquad I(L_{2q})=[4q-1,4q+2],
+\] where the even-seam formulas run only to \(q=k-1\).
+
+For \(H/H\), distinct column intervals are strictly disjoint. For
+same-parity \(U/U\) and \(L/L\), if \(q<r\) the right endpoint of the
+\(q\) interval is strictly before the left endpoint of the \(r\)
+interval; hence these pairs are disjoint.
+
+For the cross-row \(U/L\) class there is no distance cutoff. For odd
+seams \(i=2q-1\), \(j=2r-1\), \[
+I(U_i)=[4q-3,4q],\qquad I(L_j)=[4r-2,4r-1].
+\] If \(r=q\), the lower interval is strictly nested in the upper one;
+if \(r<q\) it is strictly before it; if \(r>q\) it is strictly after it.
+For even seams \(i=2q\), \(j=2r\), \[
+I(U_i)=[4q,4q+1],\qquad I(L_j)=[4r-1,4r+2],
+\] and the same trichotomy holds, with the upper interval nested in the
+lower one when \(r=q\). Thus every same-target pair is nested or
+disjoint for arbitrary \(q,r\).
+
+\subsection{\texorpdfstring{C.2. The order
+\(\Omega_-(k)\)}{C.2. The order \textbackslash Omega\_-(k)}}\label{c.2.-the-order-omega_-k}
+
+Here \[
+\operatorname{pos}(A_c)=c,\qquad
+\operatorname{pos}(B_c)=2n-c+1.
+\] The primitive directed relations are \(A_i\prec A_{i+1}\),
+\(B_{i+1}\prec B_i\), and \(A_c\prec B_c\), all of which point forward.
+
+For horizontal creases, \[
+I(H_c)=[c,2n-c+1].
+\] If \(c<d\), then \[
+c<d<2n-d+1<2n-c+1,
+\] so \(I(H_d)\) is strictly nested in \(I(H_c)\).
+
+Upper vertical intervals are \(I(U_i)=[i,i+1]\). Distinct same-target
+seams have equal parity and hence differ by at least two, so these
+intervals are disjoint. Lower vertical intervals are \[
+I(L_i)=[2n-i,2n-i+1]
+\] and are likewise disjoint within a target parity.
+
+Finally, \[
+\max I(U_i)\le n<n+1\le\min I(L_j)
+\] for all \(i,j\), so every cross-row \(U/L\) pair is separated, even
+before target parity is imposed.
+
+\subsection{C.3. Boundary and strictness
+check}\label{c.3.-boundary-and-strictness-check}
+
+The Butterfly predicate uses strict alternation. Genuine tested pairs
+have disjoint wing sets, so their four endpoint positions are distinct.
+At the left and right boundaries all displayed interval formulas stay
+within \(1,\ldots,4k\); even seam formulas stop at \(n-2\). Therefore no
+endpoint degeneration or omitted long-range case occurs. The families
+\(H/H\), \(U/U\), \(L/L\), and \(U/L\) exhaust all same-target disjoint
+crease pairs because horizontal target \(S\) is distinct from vertical
+targets \(E,W\).
+
+Hence both canonical pleat orders satisfy every global semantic
+condition for every \(k\ge2\).
+
+\end{document}

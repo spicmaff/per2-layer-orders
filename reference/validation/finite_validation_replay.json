@@ -1,0 +1,86 @@
+{
+  "role": "VALIDATION_ONLY_NOT_PROOF",
+  "k2": {
+    "words": 64,
+    "distribution": {
+      "0": 48,
+      "1": 8,
+      "5": 4,
+      "7": 4
+    },
+    "total_states": 56,
+    "exact_sets_enumerated": true
+  },
+  "canonical_MMMMVV": {
+    "pivot_fibres": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "expected_match": true
+  },
+  "canonical_MVMMMM": {
+    "pivot_fibres": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "expected_match": true
+  },
+  "symmetry": {
+    "checks": 320,
+    "exact_state_set_checks": 320
+  },
+  "k1": {
+    "formal_words": 64,
+    "physical_projection_classes": 16,
+    "singleton_formal_words": 32,
+    "empty_formal_words": 32,
+    "absent_bit_invariance": true,
+    "analytic_eight_orders_match": true
+  },
+  "unexplained_mismatches": 0,
+  "status": "PASS"
+}

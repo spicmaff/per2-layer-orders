@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "per2-layer-orders"
+version = "1.0.0rc1"
+description = "Research software and reproducibility artifact for exact labelled layer orders of period-2 2 x 2k map folding."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Michael Fofonov"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://spicmaff.github.io/per2-layer-orders/"
+Repository = "https://github.com/spicmaff/per2-layer-orders"
+Documentation = "https://spicmaff.github.io/per2-layer-orders/"
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "jsonschema>=4.23"]
+
+[project.scripts]
+per2 = "per2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "visualization/tests"]
+addopts = "-q"

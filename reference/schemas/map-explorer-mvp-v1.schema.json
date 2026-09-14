@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/per2/map-explorer-mvp-v1.schema.json",
+  "title": "PER2 Map Explorer MVP",
+  "type": "object",
+  "required": ["schema_version", "dataset_id", "scientific_scope", "honesty_flags", "map", "row_forms", "pairs", "traces", "defaults", "sentinels", "provenance"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "dataset_id": {"const": "per2.explorer.mvp.mvmmmm.k3"},
+    "honesty_flags": {"type": "array", "contains": {"const": "not_a_physical_folding_path"}},
+    "map": {"type": "object", "required": ["k", "n", "word", "faces", "creases"]},
+    "row_forms": {"type": "object", "required": ["A", "B"]},
+    "pairs": {"type": "array", "minItems": 25, "maxItems": 25},
+    "traces": {"type": "object", "minProperties": 25},
+    "sentinels": {"type": "object", "required": ["success", "failure"]}
+  }
+}

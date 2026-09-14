@@ -1,0 +1,1 @@
+Schematic of the physical $2\times n$ map ($n=2k$). Faces remain labelled. $H_c$ is the horizontal crease between $A_c$ and $B_c$; $U_i$ and $L_i$ are the physical shared seams between adjacent upper and lower faces. Physical index $j$ uses period slot $(j-1)\bmod 2$. The six formal period bits specify repeating labels, not six physical creases.

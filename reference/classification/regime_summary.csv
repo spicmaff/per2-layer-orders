@@ -1,0 +1,5 @@
+local_condition,tau,rho,canonical_structural_type,exact_state_set_description,count_corollary
+either delta_0 or delta_1 != -1,-,-,Zero,empty,0
+delta_0=delta_1=-1,-1,either,Pleat singleton,exact singleton transported from one of two canonical pleat orders,1
+delta_0=delta_1=-1,+1,+1,Constant row: MMMMVV,exact transported singleton fibres indexed by compatible ordered pivots,6k-5
+delta_0=delta_1=-1,+1,-1,Constant row: MVMMMM,exact transported singleton fibres indexed by equal block coordinate,4k-3

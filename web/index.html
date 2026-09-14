@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PER2 labelled layer orders</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="eyebrow">PER2 research artifact</div>
+  <h1>Exact labelled layer orders for period-2 2×2k map folding</h1>
+  <p class="lead">The project classifies final labelled layer orders, not fold sequences. Scientific status comes from versioned Python exports; browser code is a renderer, not a second mathematical oracle.</p>
+
+  <nav class="nav" aria-label="Primary">
+    <a href="paper/PER2_CANONICAL_MANUSCRIPT.pdf">Paper PDF</a>
+    <a href="supplements/M4_SUPPLEMENT_S1_TABLES.pdf">S1 tables</a>
+    <a href="supplements/M4_SUPPLEMENT_S2_VALIDATION.pdf">S2 validation</a>
+    <a href="atlas/">64-word atlas</a>
+    <a href="pivots/">Pivot lab</a>
+    <a href="canonical/mmmmvv/">MMMMVV</a>
+    <a href="canonical/mvmmmm/">MVMMMM</a>
+    <a href="explorer/"><b>Map Explorer</b></a>
+    <a href="physical/">Physical example</a>
+    <a href="provenance/">Provenance</a>
+  </nav>
+
+  <section class="hero">
+    <div class="card">
+      <span class="badge">∀k theorem · k≥2</span>
+      <h2>Two canonical mechanisms</h2>
+      <p><b>MMMMVV:</b> compatible iff <code>a=1</code>, <code>a=2k−1</code>, or <code>a=b</code>.</p>
+      <p><b>MVMMMM:</b> compatible iff <code>B_R(a)=B_R(b)</code>; the horizontal merge is a forced LIFO reconstruction.</p>
+      <p class="note">Finite computation validates bounded cases but is not the all-k proof.</p>
+      <p><a href="explorer/?mechanism=mvmmmm&a=2&b=3"><b>Open the coordinated Explorer →</b></a></p>
+    </div>
+    <div class="card">
+      <div class="eyebrow">One explicit physical realization</div>
+      <h2>Validated k=6 example</h2>
+      <a href="physical/"><img src="assets/physical_k6/poster.svg" class="figure" alt="Opening frame of the validated k=6 physical folding example"></a>
+      <p class="note">A verified simple-fold sequence in the ideal zero-thickness model for one explicit state only.</p>
+      <p><a href="physical/">Open the physical example →</a></p>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:24px">
+    <h2>Map & Layer-Order Explorer</h2>
+    <p>Two canonical mechanisms share one coordinated render-only workspace. <code>MVMMMM</code> shows exported LIFO reconstruction records; prepared <code>MMMMVV</code> scenes show diagonal success, boundary success, and a directed-cycle obstruction.</p>
+    <p class="note">Combinatorial reconstruction only — not a physical folding trajectory. Scientific status is supplied by Python exports.</p>
+    <p><a href="explorer/?mechanism=mvmmmm&a=2&b=3"><b>Explore MVMMMM →</b></a> &nbsp; <a href="explorer/?mechanism=mmmmvv&scene=diagonal"><b>Explore MMMMVV →</b></a></p>
+  </section>
+
+  <section class="grid" aria-label="Structural visualizations">
+    <article class="card"><h2>64-word regime atlas</h2><a href="atlas/"><img src="visualization/generated/01_regime_atlas.svg" class="figure" alt="Atlas of all 64 period words"></a></article>
+    <article class="card"><h2>Row pivot normal form</h2><a href="pivots/"><img src="visualization/generated/02_row_pivot_lab.svg" class="figure" alt="Row pivot normal-form diagram"></a></article>
+    <article class="card"><h2>Canonical MMMMVV</h2><a href="canonical/mmmmvv/"><img src="visualization/generated/03_mmmmvv_lab.svg" class="figure" alt="Boundary-or-diagonal compatibility matrix"></a></article>
+    <article class="card"><h2>Canonical MVMMMM</h2><a href="canonical/mvmmmm/"><img src="visualization/generated/04_mvmmmm_lab.svg" class="figure" alt="BR-block and LIFO reconstruction diagram"></a></article>
+  </section>
+
+  <p class="footer">No-backend research artifact. Reference data, static figures, and Explorer scene records are generated from the Python scientific package.</p>
+</main>
+</body>
+</html>

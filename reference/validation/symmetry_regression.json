@@ -1,0 +1,2565 @@
+{
+  "checks": [
+    {
+      "P": "MMMMMM",
+      "op": "C",
+      "target": "VVVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMM",
+      "op": "R",
+      "target": "MMMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMM",
+      "op": "H",
+      "target": "MMMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMM",
+      "op": "CR",
+      "target": "VVVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMM",
+      "op": "CH",
+      "target": "VVVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMV",
+      "op": "C",
+      "target": "VVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMV",
+      "op": "R",
+      "target": "MMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMV",
+      "op": "H",
+      "target": "MMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMV",
+      "op": "CR",
+      "target": "VVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMMV",
+      "op": "CH",
+      "target": "VVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVM",
+      "op": "C",
+      "target": "VVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVM",
+      "op": "R",
+      "target": "MMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVM",
+      "op": "H",
+      "target": "MMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVM",
+      "op": "CR",
+      "target": "VVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVM",
+      "op": "CH",
+      "target": "VVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVV",
+      "op": "C",
+      "target": "VVVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVV",
+      "op": "R",
+      "target": "MMVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVV",
+      "op": "H",
+      "target": "MMMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVV",
+      "op": "CR",
+      "target": "VVMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMMVV",
+      "op": "CH",
+      "target": "VVVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMM",
+      "op": "C",
+      "target": "VVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMM",
+      "op": "R",
+      "target": "MMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMM",
+      "op": "H",
+      "target": "MMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMM",
+      "op": "CR",
+      "target": "VVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMM",
+      "op": "CH",
+      "target": "VVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMV",
+      "op": "C",
+      "target": "VVVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMV",
+      "op": "R",
+      "target": "MMMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMV",
+      "op": "H",
+      "target": "MMMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMV",
+      "op": "CR",
+      "target": "VVVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVMV",
+      "op": "CH",
+      "target": "VVVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVM",
+      "op": "C",
+      "target": "VVVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVM",
+      "op": "R",
+      "target": "MMVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVM",
+      "op": "H",
+      "target": "MMMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVM",
+      "op": "CR",
+      "target": "VVMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVM",
+      "op": "CH",
+      "target": "VVVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVV",
+      "op": "C",
+      "target": "VVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVV",
+      "op": "R",
+      "target": "MMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVV",
+      "op": "H",
+      "target": "MMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVV",
+      "op": "CR",
+      "target": "VVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMMVVV",
+      "op": "CH",
+      "target": "VVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMM",
+      "op": "C",
+      "target": "VVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMM",
+      "op": "R",
+      "target": "MMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMM",
+      "op": "H",
+      "target": "MMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMM",
+      "op": "CR",
+      "target": "VVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMM",
+      "op": "CH",
+      "target": "VVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMV",
+      "op": "C",
+      "target": "VVMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMV",
+      "op": "R",
+      "target": "MMMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMV",
+      "op": "H",
+      "target": "MMVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMV",
+      "op": "CR",
+      "target": "VVVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMMV",
+      "op": "CH",
+      "target": "VVMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVM",
+      "op": "C",
+      "target": "VVMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVM",
+      "op": "R",
+      "target": "MMVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVM",
+      "op": "H",
+      "target": "MMVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVM",
+      "op": "CR",
+      "target": "VVMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVM",
+      "op": "CH",
+      "target": "VVMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVV",
+      "op": "C",
+      "target": "VVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVV",
+      "op": "R",
+      "target": "MMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVV",
+      "op": "H",
+      "target": "MMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVV",
+      "op": "CR",
+      "target": "VVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVMVV",
+      "op": "CH",
+      "target": "VVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMM",
+      "op": "C",
+      "target": "VVMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMM",
+      "op": "R",
+      "target": "MMMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMM",
+      "op": "H",
+      "target": "MMVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMM",
+      "op": "CR",
+      "target": "VVVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMM",
+      "op": "CH",
+      "target": "VVMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMV",
+      "op": "C",
+      "target": "VVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMV",
+      "op": "R",
+      "target": "MMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMV",
+      "op": "H",
+      "target": "MMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMV",
+      "op": "CR",
+      "target": "VVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVMV",
+      "op": "CH",
+      "target": "VVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVM",
+      "op": "C",
+      "target": "VVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVM",
+      "op": "R",
+      "target": "MMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVM",
+      "op": "H",
+      "target": "MMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVM",
+      "op": "CR",
+      "target": "VVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVM",
+      "op": "CH",
+      "target": "VVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVV",
+      "op": "C",
+      "target": "VVMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVV",
+      "op": "R",
+      "target": "MMVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVV",
+      "op": "H",
+      "target": "MMVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVV",
+      "op": "CR",
+      "target": "VVMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MMVVVV",
+      "op": "CH",
+      "target": "VVMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMM",
+      "op": "C",
+      "target": "VMVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMM",
+      "op": "R",
+      "target": "MVMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMM",
+      "op": "H",
+      "target": "VMMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMM",
+      "op": "CR",
+      "target": "VMVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMM",
+      "op": "CH",
+      "target": "MVVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMV",
+      "op": "C",
+      "target": "VMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMV",
+      "op": "R",
+      "target": "MVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMV",
+      "op": "H",
+      "target": "VMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMV",
+      "op": "CR",
+      "target": "VMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMMV",
+      "op": "CH",
+      "target": "MVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVM",
+      "op": "C",
+      "target": "VMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVM",
+      "op": "R",
+      "target": "MVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVM",
+      "op": "H",
+      "target": "VMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVM",
+      "op": "CR",
+      "target": "VMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVM",
+      "op": "CH",
+      "target": "MVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVV",
+      "op": "C",
+      "target": "VMVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVV",
+      "op": "R",
+      "target": "MVVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVV",
+      "op": "H",
+      "target": "VMMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVV",
+      "op": "CR",
+      "target": "VMMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMMVV",
+      "op": "CH",
+      "target": "MVVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMM",
+      "op": "C",
+      "target": "VMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMM",
+      "op": "R",
+      "target": "MVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMM",
+      "op": "H",
+      "target": "VMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMM",
+      "op": "CR",
+      "target": "VMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMM",
+      "op": "CH",
+      "target": "MVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMV",
+      "op": "C",
+      "target": "VMVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMV",
+      "op": "R",
+      "target": "MVMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMV",
+      "op": "H",
+      "target": "VMMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMV",
+      "op": "CR",
+      "target": "VMVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVMV",
+      "op": "CH",
+      "target": "MVVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVM",
+      "op": "C",
+      "target": "VMVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVM",
+      "op": "R",
+      "target": "MVVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVM",
+      "op": "H",
+      "target": "VMMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVM",
+      "op": "CR",
+      "target": "VMMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVM",
+      "op": "CH",
+      "target": "MVVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVV",
+      "op": "C",
+      "target": "VMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVV",
+      "op": "R",
+      "target": "MVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVV",
+      "op": "H",
+      "target": "VMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVV",
+      "op": "CR",
+      "target": "VMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVMVVV",
+      "op": "CH",
+      "target": "MVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMM",
+      "op": "C",
+      "target": "VMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMM",
+      "op": "R",
+      "target": "MVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMM",
+      "op": "H",
+      "target": "VMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMM",
+      "op": "CR",
+      "target": "VMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMM",
+      "op": "CH",
+      "target": "MVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMV",
+      "op": "C",
+      "target": "VMMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMV",
+      "op": "R",
+      "target": "MVMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMV",
+      "op": "H",
+      "target": "VMVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMV",
+      "op": "CR",
+      "target": "VMVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMMV",
+      "op": "CH",
+      "target": "MVMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVM",
+      "op": "C",
+      "target": "VMMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVM",
+      "op": "R",
+      "target": "MVVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVM",
+      "op": "H",
+      "target": "VMVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVM",
+      "op": "CR",
+      "target": "VMMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVM",
+      "op": "CH",
+      "target": "MVMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVV",
+      "op": "C",
+      "target": "VMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVV",
+      "op": "R",
+      "target": "MVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVV",
+      "op": "H",
+      "target": "VMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVV",
+      "op": "CR",
+      "target": "VMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVMVV",
+      "op": "CH",
+      "target": "MVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMM",
+      "op": "C",
+      "target": "VMMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMM",
+      "op": "R",
+      "target": "MVMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMM",
+      "op": "H",
+      "target": "VMVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMM",
+      "op": "CR",
+      "target": "VMVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMM",
+      "op": "CH",
+      "target": "MVMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMV",
+      "op": "C",
+      "target": "VMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMV",
+      "op": "R",
+      "target": "MVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMV",
+      "op": "H",
+      "target": "VMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMV",
+      "op": "CR",
+      "target": "VMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVMV",
+      "op": "CH",
+      "target": "MVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVM",
+      "op": "C",
+      "target": "VMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVM",
+      "op": "R",
+      "target": "MVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVM",
+      "op": "H",
+      "target": "VMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVM",
+      "op": "CR",
+      "target": "VMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVM",
+      "op": "CH",
+      "target": "MVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVV",
+      "op": "C",
+      "target": "VMMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVV",
+      "op": "R",
+      "target": "MVVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVV",
+      "op": "H",
+      "target": "VMVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVV",
+      "op": "CR",
+      "target": "VMMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "MVVVVV",
+      "op": "CH",
+      "target": "MVMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMM",
+      "op": "C",
+      "target": "MVVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMM",
+      "op": "R",
+      "target": "VMMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMM",
+      "op": "H",
+      "target": "MVMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMM",
+      "op": "CR",
+      "target": "MVVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMM",
+      "op": "CH",
+      "target": "VMVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMV",
+      "op": "C",
+      "target": "MVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMV",
+      "op": "R",
+      "target": "VMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMV",
+      "op": "H",
+      "target": "MVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMV",
+      "op": "CR",
+      "target": "MVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMMV",
+      "op": "CH",
+      "target": "VMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVM",
+      "op": "C",
+      "target": "MVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVM",
+      "op": "R",
+      "target": "VMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVM",
+      "op": "H",
+      "target": "MVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVM",
+      "op": "CR",
+      "target": "MVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVM",
+      "op": "CH",
+      "target": "VMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVV",
+      "op": "C",
+      "target": "MVVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVV",
+      "op": "R",
+      "target": "VMVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVV",
+      "op": "H",
+      "target": "MVMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVV",
+      "op": "CR",
+      "target": "MVMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMMVV",
+      "op": "CH",
+      "target": "VMVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMM",
+      "op": "C",
+      "target": "MVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMM",
+      "op": "R",
+      "target": "VMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMM",
+      "op": "H",
+      "target": "MVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMM",
+      "op": "CR",
+      "target": "MVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMM",
+      "op": "CH",
+      "target": "VMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMV",
+      "op": "C",
+      "target": "MVVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMV",
+      "op": "R",
+      "target": "VMMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMV",
+      "op": "H",
+      "target": "MVMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMV",
+      "op": "CR",
+      "target": "MVVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVMV",
+      "op": "CH",
+      "target": "VMVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVM",
+      "op": "C",
+      "target": "MVVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVM",
+      "op": "R",
+      "target": "VMVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVM",
+      "op": "H",
+      "target": "MVMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVM",
+      "op": "CR",
+      "target": "MVMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVM",
+      "op": "CH",
+      "target": "VMVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVV",
+      "op": "C",
+      "target": "MVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVV",
+      "op": "R",
+      "target": "VMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVV",
+      "op": "H",
+      "target": "MVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVV",
+      "op": "CR",
+      "target": "MVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMMVVV",
+      "op": "CH",
+      "target": "VMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMM",
+      "op": "C",
+      "target": "MVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMM",
+      "op": "R",
+      "target": "VMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMM",
+      "op": "H",
+      "target": "MVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMM",
+      "op": "CR",
+      "target": "MVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMM",
+      "op": "CH",
+      "target": "VMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMV",
+      "op": "C",
+      "target": "MVMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMV",
+      "op": "R",
+      "target": "VMMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMV",
+      "op": "H",
+      "target": "MVVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMV",
+      "op": "CR",
+      "target": "MVVMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMMV",
+      "op": "CH",
+      "target": "VMMVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVM",
+      "op": "C",
+      "target": "MVMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVM",
+      "op": "R",
+      "target": "VMVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVM",
+      "op": "H",
+      "target": "MVVMVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVM",
+      "op": "CR",
+      "target": "MVMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVM",
+      "op": "CH",
+      "target": "VMMVMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVV",
+      "op": "C",
+      "target": "MVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVV",
+      "op": "R",
+      "target": "VMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVV",
+      "op": "H",
+      "target": "MVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVV",
+      "op": "CR",
+      "target": "MVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVMVV",
+      "op": "CH",
+      "target": "VMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMM",
+      "op": "C",
+      "target": "MVMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMM",
+      "op": "R",
+      "target": "VMMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMM",
+      "op": "H",
+      "target": "MVVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMM",
+      "op": "CR",
+      "target": "MVVVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMM",
+      "op": "CH",
+      "target": "VMMMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMV",
+      "op": "C",
+      "target": "MVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMV",
+      "op": "R",
+      "target": "VMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMV",
+      "op": "H",
+      "target": "MVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMV",
+      "op": "CR",
+      "target": "MVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVMV",
+      "op": "CH",
+      "target": "VMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVM",
+      "op": "C",
+      "target": "MVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVM",
+      "op": "R",
+      "target": "VMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVM",
+      "op": "H",
+      "target": "MVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVM",
+      "op": "CR",
+      "target": "MVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVM",
+      "op": "CH",
+      "target": "VMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVV",
+      "op": "C",
+      "target": "MVMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVV",
+      "op": "R",
+      "target": "VMVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVV",
+      "op": "H",
+      "target": "MVVVVV",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVV",
+      "op": "CR",
+      "target": "MVMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VMVVVV",
+      "op": "CH",
+      "target": "VMMMMM",
+      "source_count": 5,
+      "target_count": 5,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMM",
+      "op": "C",
+      "target": "MMVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMM",
+      "op": "R",
+      "target": "VVMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMM",
+      "op": "H",
+      "target": "VVMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMM",
+      "op": "CR",
+      "target": "MMVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMM",
+      "op": "CH",
+      "target": "MMVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMV",
+      "op": "C",
+      "target": "MMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMV",
+      "op": "R",
+      "target": "VVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMV",
+      "op": "H",
+      "target": "VVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMV",
+      "op": "CR",
+      "target": "MMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMMV",
+      "op": "CH",
+      "target": "MMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVM",
+      "op": "C",
+      "target": "MMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVM",
+      "op": "R",
+      "target": "VVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVM",
+      "op": "H",
+      "target": "VVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVM",
+      "op": "CR",
+      "target": "MMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVM",
+      "op": "CH",
+      "target": "MMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVV",
+      "op": "C",
+      "target": "MMVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVV",
+      "op": "R",
+      "target": "VVVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVV",
+      "op": "H",
+      "target": "VVMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVV",
+      "op": "CR",
+      "target": "MMMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMMVV",
+      "op": "CH",
+      "target": "MMVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMM",
+      "op": "C",
+      "target": "MMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMM",
+      "op": "R",
+      "target": "VVMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMM",
+      "op": "H",
+      "target": "VVMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMM",
+      "op": "CR",
+      "target": "MMVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMM",
+      "op": "CH",
+      "target": "MMVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMV",
+      "op": "C",
+      "target": "MMVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMV",
+      "op": "R",
+      "target": "VVMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMV",
+      "op": "H",
+      "target": "VVMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMV",
+      "op": "CR",
+      "target": "MMVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVMV",
+      "op": "CH",
+      "target": "MMVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVM",
+      "op": "C",
+      "target": "MMVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVM",
+      "op": "R",
+      "target": "VVVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVM",
+      "op": "H",
+      "target": "VVMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVM",
+      "op": "CR",
+      "target": "MMMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVM",
+      "op": "CH",
+      "target": "MMVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVV",
+      "op": "C",
+      "target": "MMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVV",
+      "op": "R",
+      "target": "VVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVV",
+      "op": "H",
+      "target": "VVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVV",
+      "op": "CR",
+      "target": "MMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVMVVV",
+      "op": "CH",
+      "target": "MMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMM",
+      "op": "C",
+      "target": "MMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMM",
+      "op": "R",
+      "target": "VVMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMM",
+      "op": "H",
+      "target": "VVVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMM",
+      "op": "CR",
+      "target": "MMVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMM",
+      "op": "CH",
+      "target": "MMMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMV",
+      "op": "C",
+      "target": "MMMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMV",
+      "op": "R",
+      "target": "VVMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMV",
+      "op": "H",
+      "target": "VVVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMV",
+      "op": "CR",
+      "target": "MMVMMV",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMMV",
+      "op": "CH",
+      "target": "MMMVVM",
+      "source_count": 1,
+      "target_count": 1,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVM",
+      "op": "C",
+      "target": "MMMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVM",
+      "op": "R",
+      "target": "VVVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVM",
+      "op": "H",
+      "target": "VVVMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVM",
+      "op": "CR",
+      "target": "MMMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVM",
+      "op": "CH",
+      "target": "MMMVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVV",
+      "op": "C",
+      "target": "MMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVV",
+      "op": "R",
+      "target": "VVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVV",
+      "op": "H",
+      "target": "VVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVV",
+      "op": "CR",
+      "target": "MMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVMVV",
+      "op": "CH",
+      "target": "MMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMM",
+      "op": "C",
+      "target": "MMMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMM",
+      "op": "R",
+      "target": "VVMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMM",
+      "op": "H",
+      "target": "VVVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMM",
+      "op": "CR",
+      "target": "MMVVMM",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMM",
+      "op": "CH",
+      "target": "MMMMVV",
+      "source_count": 7,
+      "target_count": 7,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMV",
+      "op": "C",
+      "target": "MMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMV",
+      "op": "R",
+      "target": "VVMVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMV",
+      "op": "H",
+      "target": "VVVVMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMV",
+      "op": "CR",
+      "target": "MMVMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVMV",
+      "op": "CH",
+      "target": "MMMMVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVM",
+      "op": "C",
+      "target": "MMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVM",
+      "op": "R",
+      "target": "VVVMVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVM",
+      "op": "H",
+      "target": "VVVVVM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVM",
+      "op": "CR",
+      "target": "MMMVMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVM",
+      "op": "CH",
+      "target": "MMMMMV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVV",
+      "op": "C",
+      "target": "MMMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVV",
+      "op": "R",
+      "target": "VVVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVV",
+      "op": "H",
+      "target": "VVVVVV",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVV",
+      "op": "CR",
+      "target": "MMMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    },
+    {
+      "P": "VVVVVV",
+      "op": "CH",
+      "target": "MMMMMM",
+      "source_count": 0,
+      "target_count": 0,
+      "exact_set_equal": true
+    }
+  ],
+  "status": "PASS"
+}

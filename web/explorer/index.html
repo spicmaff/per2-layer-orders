@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Map & Layer-Order Explorer · PER2</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<main class="wrap explorer-wrap">
+  <p class="crumb"><a href="../">← Home</a> · <a href="../canonical/mvmmmm/">MVMMMM lab</a> · <a href="../canonical/mmmmvv/">MMMMVV lab</a></p>
+  <div class="explorer-head">
+    <div>
+      <div id="explorerEyebrow" class="eyebrow">Canonical mechanisms · exported records</div>
+      <h1>Map & Layer-Order Explorer</h1>
+      <p id="explorerLead" class="lead">Coordinated physical-map, row-order, exact layer-order, and theorem-reason views. Scientific status is loaded from versioned Python exports.</p>
+    </div>
+    <div class="badge-stack">
+      <span class="badge theorem-badge">∀k THEOREM-DERIVED RECORDS</span>
+      <span class="badge schematic-badge">◇ COMBINATORIAL VIEW · not a physical folding path</span>
+    </div>
+  </div>
+
+  <section class="explorer-toolbar card" aria-label="Explorer controls">
+    <div class="controls compact-controls">
+      <label>Canonical mechanism
+        <select id="mechanismSelect">
+          <option value="mvmmmm">MVMMMM · LIFO</option>
+          <option value="mmmmvv">MMMMVV · boundary / diagonal</option>
+        </select>
+      </label>
+      <label id="sceneControl" hidden>Prepared MMMMVV scene<select id="sceneSelect"></select></label>
+      <label id="aControl">Upper pivot a<select id="aSelect"></select></label>
+      <label id="bControl">Lower pivot b<select id="bSelect"></select></label>
+      <label>Annotations<select id="annotationSelect"><option value="basic">Basic</option><option value="proof">Proof</option></select></label>
+      <label>Stack view<select id="stackMode"><option value="literal">Literal</option><option value="exploded">Exploded</option></select></label>
+      <label class="check-control"><input type="checkbox" id="labelsToggle" checked> Face labels</label>
+      <label class="check-control"><input type="checkbox" id="mvToggle" checked> M/V</label>
+      <label id="motionControl" class="check-control"><input type="checkbox" id="motionToggle"> Motion</label>
+    </div>
+    <div id="traceControls" class="trace-controls" role="group" aria-label="Trace stepping">
+      <button id="prevBtn" type="button">← Previous</button>
+      <button id="nextBtn" type="button">Next →</button>
+      <button id="resetBtn" type="button">Reset</button>
+      <span id="stepStatus" class="small mono"></span>
+    </div>
+  </section>
+
+  <section id="statusBand" class="status-band" aria-live="polite"></section>
+
+  <section class="explorer-layout">
+    <div class="explorer-left">
+      <section class="instrument-panel" aria-labelledby="mapTitle">
+        <header><span class="panel-letter">A</span><div><h2 id="mapTitle">Map / crease pattern</h2><p id="mapDesc">Physical map geometry. Pivot seams are physical U/L creases.</p></div></header>
+        <div id="mapPanel" class="map-stage" role="img" aria-label="Physical map"></div>
+        <div id="mapText" class="sr-equivalent"></div>
+      </section>
+
+      <section class="instrument-panel" aria-labelledby="rowsTitle">
+        <header><span class="panel-letter">B</span><div><h2 id="rowsTitle">Row normal forms</h2><p id="rowsDesc">Physical rows and exported row-local layer orders.</p></div></header>
+        <div id="rowPanel"></div>
+      </section>
+    </div>
+
+    <div class="explorer-right">
+      <section class="instrument-panel" aria-labelledby="layerTitle">
+        <header><span class="panel-letter">C</span><div><h2 id="layerTitle">Global layer order</h2><p id="layerDesc">Literal labelled order from the selected exported record.</p></div></header>
+        <div id="layerPanel" class="layer-panel"></div>
+      </section>
+
+      <section class="instrument-panel" aria-labelledby="traceTitle">
+        <header><span class="panel-letter">D</span><div><h2 id="traceTitle">Mechanism trace</h2><p id="traceDesc">Mechanism-specific theorem record.</p></div></header>
+        <div id="traceSummary"></div>
+        <div id="stackPanel" class="stack-panel"></div>
+        <div id="traceTableWrap" class="trace-scroll"><table class="trace-table explorer-trace"><thead id="traceHead"></thead><tbody id="traceRows"></tbody></table></div>
+        <div id="witnessPanel" class="witness-panel" hidden></div>
+      </section>
+    </div>
+  </section>
+
+  <section id="proofDock" class="instrument-panel proof-dock" aria-labelledby="proofTitle">
+    <header><span class="panel-letter">E</span><div><h2 id="proofTitle">Reason / provenance</h2><p id="proofDesc">Compatibility and obstruction status are loaded from Python-exported theorem records.</p></div></header>
+    <div id="proofContent"></div>
+  </section>
+
+  <p id="staticRefs" class="footer"></p>
+</main>
+<script type="module" src="../assets/js/explorer.js"></script>
+</body>
+</html>

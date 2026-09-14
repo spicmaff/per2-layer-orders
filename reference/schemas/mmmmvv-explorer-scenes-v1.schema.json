@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/per2/mmmmvv-explorer-scenes-v1.schema.json",
+  "title": "PER2 MMMMVV Explorer scene contract",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "scientific_scope",
+    "honesty_flags",
+    "map",
+    "scenes",
+    "sentinels",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "dataset_id": {
+      "const": "per2.explorer.mmmmvv.scenes.v1"
+    },
+    "honesty_flags": {
+      "type": "array",
+      "allOf": [
+        {
+          "contains": {
+            "const": "not_a_physical_folding_path"
+          }
+        },
+        {
+          "contains": {
+            "const": "browser_does_not_compute_scientific_status"
+          }
+        }
+      ]
+    },
+    "map": {
+      "type": "object",
+      "required": [
+        "k",
+        "n",
+        "word",
+        "faces",
+        "creases"
+      ],
+      "properties": {
+        "k": {
+          "const": 4
+        },
+        "word": {
+          "const": "MMMMVV"
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "family",
+          "k",
+          "a",
+          "b",
+          "compatible",
+          "reason_codes",
+          "upper_row",
+          "lower_row",
+          "scene_kind",
+          "construction",
+          "witness",
+          "not_physical_motion",
+          "provenance",
+          "regime",
+          "canonical_representative",
+          "display"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "family": {
+            "const": "MMMMVV"
+          },
+          "k": {
+            "const": 4
+          },
+          "a": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "b": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "compatible": {
+            "type": "boolean"
+          },
+          "regime": {
+            "const": "two_nonconstant_rows"
+          },
+          "canonical_representative": {
+            "const": "MMMMVV"
+          },
+          "display": {
+            "type": "object",
+            "required": [
+              "name",
+              "compatibility_label",
+              "reason_label",
+              "reason_summary"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "compatibility_label": {
+                "enum": [
+                  "compatible",
+                  "incompatible"
+                ]
+              },
+              "reason_label": {
+                "type": "string"
+              },
+              "reason_summary": {
+                "type": "string"
+              }
+            }
+          },
+          "upper_row": {
+            "type": "object"
+          },
+          "lower_row": {
+            "type": "object"
+          },
+          "scene_kind": {
+            "enum": [
+              "compatible_construction",
+              "directed_cycle_obstruction"
+            ]
+          },
+          "construction": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "witness": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "not_physical_motion": {
+            "const": true
+          },
+          "provenance": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "sentinels": {
+      "type": "object",
+      "required": [
+        "diagonal_success",
+        "boundary_success",
+        "interior_obstruction"
+      ]
+    }
+  }
+}

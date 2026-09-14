@@ -1,0 +1,678 @@
+{
+  "status": "PASS",
+  "k": 6,
+  "n": 12,
+  "physical_folds": 12,
+  "model_scope": "ideal zero-thickness sheet; finite thickness not modeled",
+  "generalized_simple_fold_invariant": {
+    "verified": true,
+    "segment_start_checks": [
+      {
+        "segment": "F1",
+        "expected_moving_bbox_xy": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          1,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F2",
+        "expected_moving_bbox_xy": [
+          1,
+          2,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          2,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F3",
+        "expected_moving_bbox_xy": [
+          2,
+          3,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          3,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F4",
+        "expected_moving_bbox_xy": [
+          3,
+          4,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          4,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F5",
+        "expected_moving_bbox_xy": [
+          4,
+          5,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          5,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F6",
+        "expected_moving_bbox_xy": [
+          5,
+          6,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          6,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F7",
+        "expected_moving_bbox_xy": [
+          6,
+          7,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          7,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F8",
+        "expected_moving_bbox_xy": [
+          7,
+          8,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          8,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F9",
+        "expected_moving_bbox_xy": [
+          8,
+          9,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          9,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F10",
+        "expected_moving_bbox_xy": [
+          9,
+          10,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          10,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F11",
+        "expected_moving_bbox_xy": [
+          10,
+          11,
+          0,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          11,
+          12,
+          0,
+          2
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      },
+      {
+        "segment": "F12",
+        "expected_moving_bbox_xy": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "expected_stationary_bbox_xy": [
+          11,
+          12,
+          0,
+          1
+        ],
+        "bbox_max_error": 0.0,
+        "flat_start": true,
+        "boundary_simple_fold": true
+      }
+    ],
+    "statement": "After i-1 vertical folds, columns 1..i form one flat two-row packet on [i-1,i]x[0,2], while columns i+1..n remain to its right. Fold i is therefore a boundary simple fold. After n-1 folds, upper and lower packets occupy [n-1,n]x[1,2] and [n-1,n]x[0,1], making the final horizontal fold a boundary simple fold."
+  },
+  "face_rigidity": {
+    "verified": true,
+    "max_abs_error": 1.7763568394002505e-15
+  },
+  "hinge_coincidence": {
+    "verified": true,
+    "max_abs_error": 3.66205343881779e-15
+  },
+  "continuity": {
+    "verified": true,
+    "max_vertex_step_between_exported_samples": 0.0523538966157506,
+    "analytic_segments": true
+  },
+  "mv_signs": {
+    "verified": true,
+    "records": [
+      {
+        "segment": "F1",
+        "crease_group": [
+          "U1",
+          "L1"
+        ],
+        "moving_reference_face": "A1",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F2",
+        "crease_group": [
+          "U2",
+          "L2"
+        ],
+        "moving_reference_face": "A2",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F3",
+        "crease_group": [
+          "U3",
+          "L3"
+        ],
+        "moving_reference_face": "A3",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F4",
+        "crease_group": [
+          "U4",
+          "L4"
+        ],
+        "moving_reference_face": "A4",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F5",
+        "crease_group": [
+          "U5",
+          "L5"
+        ],
+        "moving_reference_face": "A5",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F6",
+        "crease_group": [
+          "U6",
+          "L6"
+        ],
+        "moving_reference_face": "A6",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F7",
+        "crease_group": [
+          "U7",
+          "L7"
+        ],
+        "moving_reference_face": "A7",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F8",
+        "crease_group": [
+          "U8",
+          "L8"
+        ],
+        "moving_reference_face": "A8",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F9",
+        "crease_group": [
+          "U9",
+          "L9"
+        ],
+        "moving_reference_face": "A9",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F10",
+        "crease_group": [
+          "U10",
+          "L10"
+        ],
+        "moving_reference_face": "A10",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F11",
+        "crease_group": [
+          "U11",
+          "L11"
+        ],
+        "moving_reference_face": "A11",
+        "orientation_parity": 1,
+        "rotation_sign": -1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H1"
+        ],
+        "moving_reference_face": "A1",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H2"
+        ],
+        "moving_reference_face": "A2",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H3"
+        ],
+        "moving_reference_face": "A3",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H4"
+        ],
+        "moving_reference_face": "A4",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H5"
+        ],
+        "moving_reference_face": "A5",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H6"
+        ],
+        "moving_reference_face": "A6",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H7"
+        ],
+        "moving_reference_face": "A7",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H8"
+        ],
+        "moving_reference_face": "A8",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H9"
+        ],
+        "moving_reference_face": "A9",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H10"
+        ],
+        "moving_reference_face": "A10",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H11"
+        ],
+        "moving_reference_face": "A11",
+        "orientation_parity": -1,
+        "rotation_sign": 1,
+        "intrinsic_sign": 1,
+        "expected": 1,
+        "match": true
+      },
+      {
+        "segment": "F12",
+        "crease_group": [
+          "H12"
+        ],
+        "moving_reference_face": "A12",
+        "orientation_parity": 1,
+        "rotation_sign": 1,
+        "intrinsic_sign": -1,
+        "expected": -1,
+        "match": true
+      }
+    ],
+    "convention": "intrinsic sign = -sign(world rotation)*moving-face orientation parity; M=+1,V=-1"
+  },
+  "phase_endpoint_flatness": {
+    "verified": true,
+    "max_abs_z_by_phase": [
+      1.2246467991473532e-16,
+      1.2246467991473532e-16,
+      2.449293598294706e-16,
+      2.449293598294706e-16,
+      3.6739403974420594e-16,
+      3.6739403974420594e-16,
+      4.898587196589413e-16,
+      4.898587196589413e-16,
+      6.123233995736766e-16,
+      6.123233995736766e-16,
+      7.34788079488412e-16,
+      8.572527594031472e-16
+    ]
+  },
+  "final_flatness": {
+    "verified": true,
+    "max_abs_z": 8.572527594031472e-16
+  },
+  "final_footprint": {
+    "verified": true,
+    "target": [
+      11,
+      12,
+      0,
+      1
+    ],
+    "max_boundary_error": 1.6497357609280434e-31
+  },
+  "final_layer_order": {
+    "verified": true,
+    "symbolic_simple_fold_order": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B12",
+      "B11",
+      "B10",
+      "B9",
+      "B8",
+      "B7",
+      "B6",
+      "B5",
+      "B4",
+      "B3",
+      "B2",
+      "B1"
+    ],
+    "canonical_theorem_order": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B12",
+      "B11",
+      "B10",
+      "B9",
+      "B8",
+      "B7",
+      "B6",
+      "B5",
+      "B4",
+      "B3",
+      "B2",
+      "B1"
+    ],
+    "equal": true,
+    "semantic_oracle_accepted": true
+  },
+  "collision_freedom": {
+    "verified": true,
+    "level": "analytic_in_ideal_zero_thickness_simple_fold_model",
+    "argument": "At each segment start, moving and stationary packets are flat and have disjoint interiors separated by the boundary hinge. During 0<|theta|<pi, every moving interior point off the hinge has strict nonzero z while all stationary material remains in z=0; hence no transverse moving/stationary interior intersection. Coincident layers within the moving packet undergo the same rigid transform. Endpoint coplanar contact is permitted."
+  },
+  "negative_control": {
+    "period_word": "MMMMVV",
+    "k": 2,
+    "requested_pivots": [
+      2,
+      3
+    ],
+    "eligible": false,
+    "canonical_available_pivots": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "reason": "Canonical exact enumeration has no state with pivot pair (2,3); physical rendering is gated off."
+  },
+  "self_cross_examination": {
+    "arbitrary_interpolation": false,
+    "large_k_revalidated": true,
+    "faces_rigid": true,
+    "hinges_coincident": true,
+    "mv_checked": true,
+    "collision_argument_rechecked": true,
+    "final_order_checked_not_visual": true,
+    "oracle_check_large_target": true
+  }
+}

@@ -1,0 +1,11 @@
+\begin{tabular}{llll}
+\toprule
+Action & Word action & Face/order action & Pivot action \\
+\midrule
+C & global M/V complement & face labels fixed; reverse total order & (a,b)->(a,b) \\
+R & swap U/L period pairs & swap A\_c<->B\_c; reverse total order & (a,b)->(b,a) \\
+H & swap h0,h1 & c->n+1-c in each row; reverse total order & (a,b)->(n-a,n-b) \\
+CR & complement after row swap & swap A\_c<->B\_c; no order reversal & (a,b)->(b,a) \\
+CH & complement after horizontal reflection & c->n+1-c; no order reversal & (a,b)->(n-a,n-b) \\
+\bottomrule
+\end{tabular}

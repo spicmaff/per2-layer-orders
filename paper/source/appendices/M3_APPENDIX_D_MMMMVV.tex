@@ -1,0 +1,463 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\appendix
+\section{\texorpdfstring{Technical Closure for
+\(MMMMVV\)}{Technical Closure for MMMMVV}}\label{appendix-d.-technical-closure-for-mmmmvv}
+
+This appendix supplies the detailed necessity, existence, full-validity,
+and uniqueness bridges used in Theorem 7.1.
+
+\subsection{D.1. Row-normal-form column words and horizontal
+actions}\label{d.1.-row-normal-form-column-words-and-horizontal-actions}
+
+Put \(o_r=2r-1\), \(e_r=2r\) for \(1\le r\le k\). The plus-normal-form
+column word is \[
+W_{2s-1}=(o_s,o_{s-1},\ldots,o_1,e_1,\ldots,e_{s-1},o_{s+1},\ldots,o_k,e_k,\ldots,e_{s+1},e_s),
+\] \[
+W_{2s}=(o_{s+1},\ldots,o_k,e_k,\ldots,e_{s+1},o_s,\ldots,o_1,e_1,\ldots,e_s).
+\] For \(MMMMVV\), horizontal crease \(H_{o_r}\) has opener \(A_{o_r}\)
+and closer \(B_{o_r}\), while \(H_{e_r}\) has opener \(B_{e_r}\) and
+closer \(A_{e_r}\).
+
+\subsection{D.2. Necessity: the four-edge
+cycle}\label{d.2.-necessity-the-four-edge-cycle}
+
+Define \(X_p(i,j)\) by \(e_j\) preceding \(o_i\) in \(W_p\). Direct
+inspection gives \[
+X_{2s-1}(i,j)\iff (i>s\ \text{and}\ j<s),
+\] \[
+X_{2s}(i,j)\iff (i\le s\ \text{and}\ j>s).
+\] If \(1<a<m\) and \(a\ne b\), choose \[
+(i,j)=(s+1,s-1)\quad\text{when }a=2s-1,
+\] \[
+(i,j)=(s,s+1)\quad\text{when }a=2s.
+\] The legal ranges are \(2\le s\le k-1\) in the odd case and
+\(1\le s\le k-1\) in the even case. The following complete case table
+verifies \(X_a=1\) and \(X_b=0\):
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+parity of \((a,b)\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+condition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+witness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+reason \(X_b=0\)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+odd/odd & \(a<b\) & \((s+1,s-1)\) & \(X_b\) would require \(i>t\), but
+\(t\ge s+1=i\) \\
+odd/odd & \(a>b\) & \((s+1,s-1)\) & \(X_b\) would require \(j<t\), but
+\(t\le s-1=j\) \\
+odd/even & any \(b\ne a\) & \((s+1,s-1)\) & if \(b=2t\), then \(X_b=1\)
+would require \(s+1\le t\) and \(s-1>t\), simultaneously \\
+even/odd & any \(b\ne a\) & \((s,s+1)\) & if \(b=2t-1\), then \(X_b=1\)
+would require \(s>t\) and \(s+1<t\), simultaneously \\
+even/even & \(a<b\) & \((s,s+1)\) & \(X_b\) would require \(j>t\), but
+\(t\ge s+1=j\) \\
+even/even & \(a>b\) & \((s,s+1)\) & \(X_b\) would require \(i\le t\),
+but \(t\le s-1<i=s\) \\
+\end{longtable}
+
+Set \(o=2i-1\) and \(e=2j\). In any merge with pivots \((a,b)\), \[
+A_e\prec A_o
+\] comes from \(X_a=1\) in the upper row. Since \(o\) is odd and \(e\)
+even, horizontal orientation gives \[
+A_o\prec B_o,\qquad B_e\prec A_e.
+\] Since \(X_b=0\), the strict lower row gives \(B_o\prec B_e\). Thus \[
+A_e\prec A_o\prec B_o\prec B_e\prec A_e,
+\] impossible in a total order. At \(k=2\), the only interior upper
+pivot is \(a=2\), the witness is \((i,j)=(1,2)\), and the same cycle is
+\(A_4\prec A_1\prec B_1\prec B_4\prec A_4\).
+
+\subsection{D.3. Five explicit existence
+families}\label{d.3.-five-explicit-existence-families}
+
+For a column \(c\), define \[
+Q_c=(A_c,B_c)\quad(c\text{ odd}),\qquad
+Q_c=(B_c,A_c)\quad(c\text{ even}).
+\] Empty ranges are omitted.
+
+If \(W_p=(c_1,\ldots,c_{2k})\), define the diagonal construction \[
+D(k,p)=Q_{c_1}Q_{c_2}\cdots Q_{c_{2k}},
+\] which has pivots \((p,p)\).
+
+For \(1\le s\le k\) define \[
+\begin{aligned}
+L_{\rm odd}(k,s)=&\ A_{o_1}\cdots A_{o_s}\mid B_{o_s}\cdots B_{o_1}\mid B_{e_1}\cdots B_{e_{s-1}}\\
+&\mid Q_{o_{s+1}}\cdots Q_{o_k}\mid Q_{e_k}\cdots Q_{e_s}\mid A_{e_{s-1}}\cdots A_{e_1},
+\end{aligned}
+\] with pivots \((1,2s-1)\), and for \(1\le s\le k-1\) define \[
+\begin{aligned}
+L_{\rm even}(k,s)=&\ A_{o_1}\cdots A_{o_{s+1}}\mid B_{o_{s+1}}\mid Q_{o_{s+2}}\cdots Q_{o_k}\\
+&\mid Q_{e_k}\cdots Q_{e_{s+1}}\mid B_{o_s}\cdots B_{o_1}\mid B_{e_1}\cdots B_{e_s}\mid A_{e_s}\cdots A_{e_1},
+\end{aligned}
+\] with pivots \((1,2s)\).
+
+For \(1\le s\le k\) define \[
+\begin{aligned}
+R_{\rm odd}(k,s)=&\ A_{o_k}\cdots A_{o_s}\mid B_{o_s}\mid Q_{o_{s-1}}\cdots Q_{o_1}\mid Q_{e_1}\cdots Q_{e_{s-1}}\\
+&\mid B_{o_{s+1}}\cdots B_{o_k}\mid B_{e_k}\cdots B_{e_s}\mid A_{e_s}\cdots A_{e_k},
+\end{aligned}
+\] with pivots \((m,2s-1)\), and for \(1\le s\le k-1\) define \[
+\begin{aligned}
+R_{\rm even}(k,s)=&\ A_{o_k}\cdots A_{o_{s+1}}\mid B_{o_{s+1}}\cdots B_{o_k}\mid B_{e_k}\cdots B_{e_{s+1}}\\
+&\mid Q_{o_s}\cdots Q_{o_1}\mid Q_{e_1}\cdots Q_{e_s}\mid A_{e_{s+1}}\cdots A_{e_k},
+\end{aligned}
+\] with pivots \((m,2s)\).
+
+The index ranges partition the four label classes, so every displayed
+word is a strict total order of all \(4k\) labels. Deleting all \(B\)
+labels or all \(A\) labels gives exactly the claimed row-normal-form
+words. The true formula overlaps are \((1,1)\) and \((m,m)\), where the
+diagonal and boundary words are literally identical. The pairs \((1,m)\)
+and \((m,1)\) are ordinary boundary members of \(L_{\rm odd}(k,k)\) and
+\(R_{\rm odd}(k,1)\). All formulas remain literal at \(k=2\) under the
+empty-range convention.
+
+\subsection{D.4. Horizontal stack validity of the
+constructions}\label{d.4.-horizontal-stack-validity-of-the-constructions}
+
+For \(MMMMVV\), the horizontal actions are
+
+\[
+A_{o_r}=\operatorname{push}(o_r),\qquad B_{o_r}=\operatorname{pop}(o_r),\qquad
+B_{e_r}=\operatorname{push}(e_r),\qquad A_{e_r}=\operatorname{pop}(e_r).
+\]
+
+Each \(Q_c\) is therefore an immediate push/pop pair above the
+pre-existing stack. The five construction families can be checked
+literally.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Diagonal \(D(k,p)\).} Every \(Q_{c_j}\) pushes and immediately
+  pops \(c_j\), so the stack is empty before and after every block.
+\item
+  \textbf{Left odd \(L_{\rm odd}(k,s)\).} The initial
+  \(A_{o_1},\ldots,A_{o_s}\) pushes the odd core \((o_1,\ldots,o_s)\),
+  and \(B_{o_s},\ldots,B_{o_1}\) pops it. Then
+  \(B_{e_1},\ldots,B_{e_{s-1}}\) pushes the even core
+  \((e_1,\ldots,e_{s-1})\). All later \(Q\) blocks act above that core,
+  and \(A_{e_{s-1}},\ldots,A_{e_1}\) pops it.
+\item
+  \textbf{Left even \(L_{\rm even}(k,s)\).} The first odd run pushes
+  \((o_1,\ldots,o_{s+1})\); \(B_{o_{s+1}}\) pops its top, leaving
+  \((o_1,\ldots,o_s)\). The intervening odd and even \(Q\) blocks act
+  above that core. Then \(B_{o_s},\ldots,B_{o_1}\) empties the odd core,
+  \(B_{e_1},\ldots,B_{e_s}\) pushes a fresh even core, and
+  \(A_{e_s},\ldots,A_{e_1}\) pops it.
+\item
+  \textbf{Right odd \(R_{\rm odd}(k,s)\).} The first run pushes
+  \((o_k,o_{k-1},\ldots,o_s)\); \(B_{o_s}\) removes the top. The \(Q\)
+  blocks act above the residual odd core \((o_k,\ldots,o_{s+1})\), which
+  is then popped by \(B_{o_{s+1}},\ldots,B_{o_k}\). Finally
+  \(B_{e_k},\ldots,B_{e_s}\) pushes the even core \((e_k,\ldots,e_s)\)
+  and \(A_{e_s},\ldots,A_{e_k}\) pops it.
+\item
+  \textbf{Right even \(R_{\rm even}(k,s)\).} The initial odd core
+  \((o_k,\ldots,o_{s+1})\) is pushed and then popped completely. The run
+  \(B_{e_k},\ldots,B_{e_{s+1}}\) pushes an even core; all \(Q\) blocks
+  act above it; the final run \(A_{e_{s+1}},\ldots,A_{e_k}\) pops it.
+\end{itemize}
+
+All empty endpoint ranges are literal, so the same verification covers
+\(s=1\), \(s=k\), and \(s=k-1\) where those parameters are legal. In
+every family there is no underflow, every closer matches the current
+top, and the final stack is empty. Consequently every horizontal
+directed relation holds and every two horizontal intervals are disjoint
+or nested, never strictly alternating.
+
+\subsection{\texorpdfstring{D.5. Remaining \(U/L\) full-validity
+obligations}{D.5. Remaining U/L full-validity obligations}}\label{d.5.-remaining-ul-full-validity-obligations}
+
+Proposition 6.1 already handles all directed vertical relations and
+same-row equal-target pairs. H-stack validity handles the horizontal
+system. Therefore only $U_i/L_j$ with equal seam parity remain.
+
+For the diagonal family, each column is a contiguous block $Q_c$ in
+the row-normal-form column order $W_p$. If $i\ne j$ have equal parity,
+then the adjacent-column pairs $\{i,i+1\}$ and $\{j,j+1\}$ are disjoint.
+Strict alternation of the actual $U/L$ endpoints would force alternation
+of those column pairs in $W_p$, contradicting row-local validity from
+Proposition 6.1. For $i=j$, the two adjacent column blocks occur with
+opposite internal orientations, and direct inspection shows one vertical
+interval nested in the other.
+
+For a boundary family fix the upper $A$ chain. Let $\rho(c)$ be the
+position of $A_c$, and put
+\[
+\sigma(c)=\#\{A_d:A_d\prec B_c\}.
+\]
+
+\begin{lemma}[Slots and cross-row alternation]\label{lem:per2-slots}
+Suppose an upper seam has endpoint ranks $\alpha<\beta$ in the upper
+$A$ chain and a lower seam has endpoint slots $x\le y$. The two seams
+strictly alternate if and only if exactly one of $x,y$ belongs to the
+integer interval $[\alpha,\beta-1]$. In particular, alternation is
+impossible if $x=y$, or if $x+y=\alpha+\beta-1$.
+\end{lemma}
+\begin{proof}
+A lower face lies strictly between the upper endpoints exactly when at
+least $\alpha$, but fewer than $\beta$, upper faces precede it, i.e. its
+slot belongs to $[\alpha,\beta-1]$. Two intervals with four distinct
+endpoints alternate exactly when precisely one endpoint of the second
+interval lies inside the first. This gives the criterion and the same-slot
+assertion. If $x+y=\alpha+\beta-1$ and $x\ge\alpha$, then
+$y\le\beta-1$, so both slots lie inside. If $x<\alpha$, integrality gives
+$x\le\alpha-1$ and hence $y\ge\beta$, so the lower endpoints lie on the
+two exterior sides. Neither case gives exactly one interior endpoint.
+\end{proof}
+
+For upper chain $W_1$,
+\[
+\rho_1(o_r)=r,\qquad \rho_1(e_r)=2k-r+1,
+\]
+so
+\[
+S_r^o=[r,2k-r]\quad(1\le r\le k),\qquad
+S_r^e=[r+1,2k-r]\quad(1\le r\le k-1).
+\]
+For upper chain $W_m$,
+\[
+\rho_m(o_r)=k-r+1,\qquad \rho_m(e_r)=k+r,
+\]
+so
+\[
+T_r^o=[k-r+1,k+r-1]\quad(1\le r\le k),\qquad
+T_r^e=[k-r,k+r-1]\quad(1\le r\le k-1).
+\]
+The sums of the two endpoints in these four shell families are,
+respectively, $2k$, $2k+1$, $2k$, and $2k-1$.
+
+The required \(\sigma\) values are as follows; the three columns
+correspond to \(t<s\), \(t=s\), and \(t>s\).
+
+\begin{longtable}[]{@{}llrrr@{}}
+\toprule\noalign{}
+construction & column & \(t<s\) & \(t=s\) & \(t>s\) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(L_{\rm odd}(k,s)\) & \(\sigma(o_t)\) & \(s\) & \(s\) & \(t\) \\
+& \(\sigma(e_t)\) & \(s\) & \(2k-s\) & \(2k-t\) \\
+\(L_{\rm even}(k,s)\) & \(\sigma(o_t)\) & \(2k-s\) & \(2k-s\) & \(t\) \\
+& \(\sigma(e_t)\) & \(2k-s\) & \(2k-s\) & \(2k-t\) \\
+\(R_{\rm odd}(k,s)\) & \(\sigma(o_t)\) & \(k-t+1\) & \(k-s+1\) &
+\(k+s-1\) \\
+& \(\sigma(e_t)\) & \(k+t-1\) & \(k+s-1\) & \(k+s-1\) \\
+\(R_{\rm even}(k,s)\) & \(\sigma(o_t)\) & \(k-t+1\) & \(k-s+1\) &
+\(k-s\) \\
+& \(\sigma(e_t)\) & \(k+t-1\) & \(k+s-1\) & \(k-s\) \\
+\end{longtable}
+
+These values are obtained directly by counting preceding \(A\) labels in
+the displayed construction words. They give the following complete
+lower-seam classification.
+
+\begin{itemize}
+\tightlist
+\item
+  In \(L_{\rm odd}\), odd seam \(2t-1\) is a point for \(t<s\), is
+  \(S_s^o\) for \(t=s\), and is \(S_t^o\) for \(t>s\); even seam \(2t\)
+  is a point for \(t<s\), is \(S_s^e\) for \(t=s\), and is \(S_t^e\) for
+  \(t>s\).
+\item
+  In \(L_{\rm even}\), odd seam \(2t-1\) is a point for \(t\le s\) and
+  is \(S_t^o\) for \(t>s\); even seam \(2t\) is a point for \(t<s\), is
+  \(S_s^e\) for \(t=s\), and is \(S_t^e\) for \(t>s\).
+\item
+  In \(R_{\rm odd}\), odd seam \(2t-1\) is \(T_t^o\) for \(t\le s\) and
+  a point for \(t>s\); even seam \(2t\) is \(T_t^e\) for \(t<s\) and a
+  point for \(t\ge s\).
+\item
+  In \(R_{\rm even}\), odd seam \(2t-1\) is \(T_t^o\) for \(t\le s\) and
+  a point for \(t>s\); even seam \(2t\) is \(T_t^e\) for \(t\le s\) and
+  a point for \(t>s\).
+\end{itemize}
+
+Thus every non-point lower seam is exactly a member of the corresponding
+upper shell family. For an arbitrary upper seam of the same parity, its
+shell and the two lower endpoint slots belong to the same one of the four
+families above and therefore have the same endpoint sum. If the upper
+shell is $[\alpha,\beta-1]$, the lower slots satisfy
+$x+y=\alpha+\beta-1$, so Lemma~\ref{lem:per2-slots} excludes strict
+alternation. Point seams are excluded by the same lemma. This proves all
+remaining $U_i/L_j$ obligations for arbitrary separation of the seam
+indices. The argument uses the constant endpoint sum; numerical
+containment of slot intervals by itself is not used.
+
+\subsection{D.6. H-local legality is not
+H-completability}\label{d.6.-h-local-legality-is-not-h-completability}
+
+For fixed row chains, represent a partial H merge by consumed row-prefix
+lengths and the stack \(S\) of open columns. A next row head is
+H-locally legal if it obeys one push/pop step. It is H-completable only
+if the child state admits a full continuation ending with every face
+consumed and the stack empty.
+
+These notions differ. At \(k=2\) with \((a,b)=(1,1)\), after prefix
+\(A_1\) both \(A_3\) and \(B_1\) are locally legal, but only \(B_1\)
+admits completion. Therefore the uniqueness proof never uses the false
+rule ``every locally legal next event is globally forced.''
+
+\begin{lemma}[Diagonal fixed-row uniqueness]\label{lem:per2-diagonal}
+For the canonical assignment $\texttt{MMMMVV}$ and every
+$1\le p\le m$, the two row orders with pivots $(p,p)$ have exactly one
+complete H-valid merge, namely $D(k,p)$.
+\end{lemma}
+\begin{proof}
+Write their common column order as $W_p=(c_1,\ldots,c_n)$.
+Assume inductively that the first $r-1$ columns have been processed as
+$Q_{c_1}\cdots Q_{c_{r-1}}$. The horizontal stack is empty and both row
+heads have column $c_r$. The opener must be emitted first: it is
+$A_{c_r}$ for odd $c_r$, and $B_{c_r}$ for even $c_r$.
+
+The other row is now waiting at its matching closer. Suppose the row
+that emitted the opener advances instead to its next column $d$.
+If that next event is a closer, its matching opener has not appeared,
+since it occurs after $c_r$ in the blocked opposite row. If it is an
+opener, its label $d$ is pushed above $c_r$. In any complete LIFO trace,
+$d$ would then have to close before $c_r$, whereas the opposite row
+requires the closer of $c_r$ before the closer of $d$. Both alternatives
+are impossible. If this row is exhausted, there is no alternative event.
+Hence the matching closer follows immediately, producing $Q_{c_r}$,
+emptying the stack, and restoring the induction hypothesis.
+The resulting word is $D(k,p)$, which is H-valid by its immediate
+push--pop blocks. The proof includes $p=1,m$ as well as interior pivots.
+\end{proof}
+
+\subsection{D.7. Projected determinism and first
+disagreement}\label{d.7.-projected-determinism-and-first-disagreement}
+
+In any complete H-valid merge, deleting all events of one column parity
+leaves a legal stack trace. For the odd projection, the upper row fixes
+the opener stream and the lower row fixes the closer stream. For the
+even projection these roles are exchanged. A fixed opener stream and a
+fixed closer stream have at most one complete legal stack trace:
+if the next requested closer has not opened, the opener stream is forced
+through that label; once it is the top label, closing it is necessary,
+since another push would bury the fixed next closer. A requested closer
+that is already buried cannot be completed. Thus both parity projections
+are uniquely determined whenever they exist.
+
+For a boundary pivot pair, let $T$ be the explicit H-valid construction
+from D.3--D.4. Suppose a different complete H-valid merge $T'$ exists,
+and consider their first divergence. Their common prefix is a prefix
+of the known word $T$. An upper-odd/lower-odd divergence contradicts
+uniqueness of the odd projection, and an upper-even/lower-even divergence
+contradicts uniqueness of the even projection. An upper-even/lower-odd
+divergence would require two distinct closers to be simultaneously legal
+at one stack top. The only remaining possibility is an upper-odd opener
+versus a lower-even opener.
+
+\subsection{D.8. Opener windows on the explicit
+constructions}\label{d.8.-corrected-cross-parity-windows}
+
+The following table lists all prefixes of the four explicit boundary
+constructions at which both row heads are openers. In the stack column,
+entries are written from bottom to top.
+\[
+\begin{array}{c|c|c|c}
+T&\text{range}&\text{stack}&\text{row heads}\\\hline
+L_{\rm odd}(k,s)&2\le s\le k-1,\ 1\le t\le s-1
+ &(e_1,\ldots,e_{t-1})&(A_{o_{s+1}},B_{e_t})\\
+L_{\rm even}(k,s)&\text{none}&-&-\\
+R_{\rm odd}(k,s)&\text{none}&-&-\\
+R_{\rm even}(k,s)&1\le s\le k-1,\ s+1\le t\le k
+ &(e_k,e_{k-1},\ldots,e_{t+1})&(A_{o_s},B_{e_t}).
+\end{array}
+\]
+In every listed window, $T$ chooses the lower-even opener.
+For $L_{\rm odd}$, the initial odd core is opened and closed before the
+lower even core $e_1,\ldots,e_{s-1}$ is opened. During this last phase
+the next upper face is $A_{o_{s+1}}$ exactly when $s<k$. The range is
+empty for $s=1$, and for $s=k$ the upper head is already an even closer.
+For $R_{\rm even}$, the initial odd core is likewise emptied; the lower
+even core is then opened from $e_k$ down to $e_{s+1}$ while the upper
+head remains $A_{o_s}$, giving the second displayed range.
+For $L_{\rm even}$ and $R_{\rm odd}$, all upper odd openers have appeared
+before the first lower even opener is reached. Immediate $Q_c$ blocks
+and the final closing phases create no further opener/opener windows.
+This exhausts prefixes of the explicit constructions, not arbitrary
+H-locally legal dead-end prefixes. That is exactly the scope required
+by the first-divergence argument.
+
+\subsection{D.9. Wrong-switch barriers and completion of
+uniqueness}\label{d.9.-wrong-switch-barriers}
+
+At a left-odd window, suppose $T'$ chooses $A_{o_{s+1}}$ instead of
+$B_{e_t}$. Before the lower row can reach $B_{o_{s+1}}$, it must open
+$e_t,\ldots,e_{s-1}$ above the newly opened odd label. Consequently
+LIFO requires $A_{e_{s-1}}\prec B_{o_{s+1}}$. The fixed row orders and
+horizontal precedence then give the impossible cycle
+\[
+ B_{o_{s+1}}
+ \mathrel{\prec_B} B_{e_k}
+ \mathrel{\prec_H} A_{e_k}
+ \mathrel{\prec_A} A_{e_{s-1}}
+ \mathrel{\prec_{\rm LIFO}} B_{o_{s+1}}.
+\]
+Here $\prec_A,\prec_B$ are the prescribed upper and lower row orders;
+$\prec_H$ is horizontal opener-before-closer precedence.
+
+At a right-even window, choosing $A_{o_s}$ forces the later lower opener
+$e_{s+1}$ above it before $B_{o_s}$ can appear. LIFO requires
+$A_{e_{s+1}}\prec B_{o_s}$, while the other constraints give
+\[
+ B_{o_s}
+ \mathrel{\prec_B} B_{e_1}
+ \mathrel{\prec_H} A_{e_1}
+ \mathrel{\prec_A} A_{e_{s+1}}
+ \mathrel{\prec_{\rm LIFO}} B_{o_s}.
+\]
+The index ranges in the window table ensure that all events used in
+these cycles exist. Thus a first divergence from $T$ is impossible.
+Each boundary pair therefore has at most one complete H-valid merge.
+Lemma~\ref{lem:per2-diagonal} covers every diagonal pair. Together these
+cases cover all pairs $a=1$, $a=m$, or $a=b$. The constructions give
+existence and D.5 gives full validity, completing the multiplicity-one
+claim without using a count formula.
+
+\subsection{D.10. Global-state-to-pivot bridge and
+multiplicity}\label{d.10.-global-state-to-pivot-bridge-and-multiplicity}
+
+Every globally valid \(MMMMVV\) state obeys all row-local constraints.
+Proposition 6.1 therefore assigns its upper and lower restrictions
+unique pivots \((a,b)\). This is a coverage/parameterization statement
+only; it does not itself assert compatibility or existence.
+
+Necessity shows the recovered pair is allowed. Sections D.3--D.5 give
+one fully valid state for each allowed pair. Lemma~\ref{lem:per2-diagonal}
+gives fixed-pair uniqueness on the diagonal, while Sections D.7--D.9
+give fixed-pair uniqueness for the boundary families. These cases exhaust
+$a=1$, $a=m$, or $a=b$. Hence the global-state-to-pair map is a
+bijection and each compatible pair has multiplicity one. Only after this bridge may the compatible-pair
+cardinality be identified with the state count.
+
+\end{document}

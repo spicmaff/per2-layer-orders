@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "canonical_baseline_sha256": "511031dc9eaff0bfc57fe32a15ff9d826d192c405908e096fec208bd643707df",
+  "entries": [
+    {
+      "path": "classification/all64.csv",
+      "sha256": "aa6d2bb8df772bac4ddc8d4b6f32daba918454a09aa04e41419c5f3633d522c2",
+      "bytes": 5431
+    },
+    {
+      "path": "classification/canonical_representatives.csv",
+      "sha256": "2526a0fc36c27c5866ccd576ae2e71f585edd723b5972b91542b5903247578f4",
+      "bytes": 491
+    },
+    {
+      "path": "classification/regime_summary.csv",
+      "sha256": "75ae8380777fb1666d1f5948b7f9fcd7d92e2a5b133c41147ad66dda40b0e7cf",
+      "bytes": 500
+    },
+    {
+      "path": "classification/symmetries.csv",
+      "sha256": "36b671f95eea87b31cb9d18e2f2a7903ac0483074d3dbc0e04e4cccf47bbd6a7",
+      "bytes": 446
+    },
+    {
+      "path": "schemas/classification-v1.schema.json",
+      "sha256": "4a0fcf0eda78923de39e7b0fa2902a9a915b8ecda6685a90468f3ebc1dc079a8",
+      "bytes": 496
+    },
+    {
+      "path": "schemas/k2-exact-states-v1.schema.json",
+      "sha256": "79efebf535ba9855bf730d9dc0dd73f4582234be646c312a3592946ab034aa63",
+      "bytes": 2044
+    },
+    {
+      "path": "schemas/map-explorer-mvp-v1.schema.json",
+      "sha256": "ab34a72016da8cf7ae7551327982c8a170c1e445c1beab430aa22d25c6cf9637",
+      "bytes": 908
+    },
+    {
+      "path": "schemas/mmmmvv-explorer-scenes-v1.schema.json",
+      "sha256": "9690d41e5b65826ac095943dbb3eba62c3af6dea0e2226c1e44583a745cc0256",
+      "bytes": 3799
+    },
+    {
+      "path": "validation/finite_validation_replay.json",
+      "sha256": "417bc73c5080c216e23ce5f460f337ef017252cbe772fc07c1d65c9b855c30fc",
+      "bytes": 1183
+    },
+    {
+      "path": "validation/k1_physical_states.csv",
+      "sha256": "42fe4e66bf07674a895e49ad461c949f5a2458151cb3b9365d402aadf2c095fa",
+      "bytes": 374
+    },
+    {
+      "path": "validation/k2_exact_states.json",
+      "sha256": "38a588285fcbe82d6a6de3409bf147916817e649962246eb7a96eb6fcfa47165",
+      "bytes": 80600
+    },
+    {
+      "path": "validation/symmetry_regression.json",
+      "sha256": "34bcdbc2bdd411d7701126c3d93c0c2fa735e58bdea04c0df6c8a48c7d8fd74e",
+      "bytes": 50409
+    },
+    {
+      "path": "validation/validation_summary.csv",
+      "sha256": "ad7dc7dcbf6264e85a002e25208e5ef403afea56e720f193c8c2caf8d49de8a7",
+      "bytes": 489
+    }
+  ],
+  "generation_commands": [
+    "per2 export-reference --root . --k2-states",
+    "python tools/make_reference_manifest.py",
+    "python tools/make_checksums.py reference"
+  ]
+}

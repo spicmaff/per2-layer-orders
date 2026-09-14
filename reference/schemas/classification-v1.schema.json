@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/per2/classification-v1.schema.json",
+  "type": "object",
+  "required": ["schema_version", "dataset_id", "provenance", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "dataset_id": {"const": "per2.theorem.all64"},
+    "provenance": {"type": "object", "required": ["epistemic_role", "generation_path"]},
+    "records": {"type": "array", "minItems": 64, "maxItems": 64}
+  }
+}

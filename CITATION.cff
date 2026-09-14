@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research artifact, please cite the repository release and
+  the accompanying paper as appropriate.
+title: "Exact Labelled Layer-Order Classification for Period-2 Mountain-Valley Assignments on 2 x 2k Maps: research artifact"
+type: software
+authors:
+  - family-names: Fofonov
+    given-names: Michael
+repository-code: "https://github.com/spicmaff/per2-layer-orders"
+url: "https://spicmaff.github.io/per2-layer-orders/"
+version: "1.0.0-rc1"
+# Add date-released only when the tag/release is actually created.
+# Add ORCID only after the author confirms the exact identifier.
+# Add DOI only after an archive such as Zenodo actually mints it.
+# Add a software license identifier only after rights-holder approval.
+
+preferred-citation:
+  type: article
+  title: "Exact Labelled Layer-Order Classification for Period-2 Mountain-Valley Assignments on 2 x 2k Maps"
+  authors:
+    - family-names: Fofonov
+      given-names: Michael
+  # Add journal/preprint metadata and DOI only when real and confirmed.

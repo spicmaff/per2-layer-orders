@@ -1,0 +1,1 @@
+Ordered-pair compatibility matrix for canonical $MMMMVV$, shown schematically at $m=7$. The horizontal coordinate is the lower-row pivot $b$ and the vertical coordinate is the upper-row pivot $a$. A filled cell is compatible exactly when $a=1$, $a=m$, or $a=b$; the two boundary conditions are therefore explicitly asymmetric in $a$.

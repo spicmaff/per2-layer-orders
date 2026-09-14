@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/per2/k2-exact-states-v1.schema.json",
+  "title": "PER2 exact labelled states at k=2",
+  "type": "object",
+  "required": ["schema_version", "dataset_id", "provenance", "total_states", "words"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "dataset_id": {"const": "per2.validation.k2_exact_states"},
+    "total_states": {"const": 56},
+    "provenance": {
+      "type": "object",
+      "required": ["epistemic_role", "generation_path", "k"],
+      "properties": {"epistemic_role": {"const": "independent_finite_validation"}}
+    },
+    "words": {
+      "type": "array",
+      "minItems": 64,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "required": ["word", "states"],
+        "properties": {
+          "word": {"type": "string", "pattern": "^[MV]{6}$"},
+          "states": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["state_id", "order_labels", "order_ids", "row_orders", "features", "semantic_validation"],
+              "properties": {
+                "features": {
+                  "type": "object",
+                  "required": ["pivots"],
+                  "properties": {
+                    "pivots_provenance": {
+                      "type": "object",
+                      "properties": {"epistemic_role": {"const": "theorem_derived"}}
+                    }
+                  }
+                },
+                "semantic_validation": {
+                  "type": "object",
+                  "required": ["accepted", "provenance"],
+                  "properties": {
+                    "accepted": {"const": true},
+                    "provenance": {
+                      "type": "object",
+                      "properties": {"epistemic_role": {"const": "independent_finite_validation"}}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

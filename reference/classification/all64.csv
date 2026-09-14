@@ -1,0 +1,65 @@
+P,h0,h1,u0,u1,l0,l1,delta0,delta1,tau,rho,regime,canonical_source_family,exact_transport,compatibility_rule,state_family_descriptor,C_P(k)
+MMMMMM,M,M,M,M,M,M,1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMMMMV,M,M,M,M,M,V,1,-1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMMMVM,M,M,M,M,V,M,-1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMMMVV,M,M,M,M,V,V,-1,-1,1,1,CONSTANT_RHO_PLUS,MMMMVV,I,alpha=1 OR alpha=m OR alpha=beta,exact transported MMMMVV singleton pivot fibres,6k-5
+MMMVMM,M,M,M,V,M,M,1,-1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMMVMV,M,M,M,V,M,V,1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMMVVM,M,M,M,V,V,M,-1,-1,-1,1,PLEAT,MMMVVM,I,N/A,exact singleton transported from canonical pleat order,1
+MMMVVV,M,M,M,V,V,V,-1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVMMM,M,M,V,M,M,M,-1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVMMV,M,M,V,M,M,V,-1,-1,-1,1,PLEAT,MMMVVM,R,N/A,exact singleton transported from canonical pleat order,1
+MMVMVM,M,M,V,M,V,M,1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVMVV,M,M,V,M,V,V,1,-1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVVMM,M,M,V,V,M,M,-1,-1,1,1,CONSTANT_RHO_PLUS,MMMMVV,R,beta=1 OR beta=m OR alpha=beta,exact transported MMMMVV singleton pivot fibres,6k-5
+MMVVMV,M,M,V,V,M,V,-1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVVVM,M,M,V,V,V,M,1,-1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MMVVVV,M,M,V,V,V,V,1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMMMM,M,V,M,M,M,M,-1,-1,1,-1,CONSTANT_RHO_MINUS,MVMMMM,I,B_R(alpha)=B_R(beta),exact transported MVMMMM singleton block fibres,4k-3
+MVMMMV,M,V,M,M,M,V,-1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMMVM,M,V,M,M,V,M,1,-1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMMVV,M,V,M,M,V,V,1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMVMM,M,V,M,V,M,M,-1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMVMV,M,V,M,V,M,V,-1,-1,-1,-1,PLEAT,MVMVMV,I,N/A,exact singleton transported from canonical pleat order,1
+MVMVVM,M,V,M,V,V,M,1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVMVVV,M,V,M,V,V,V,1,-1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVMMM,M,V,V,M,M,M,1,-1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVMMV,M,V,V,M,M,V,1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVMVM,M,V,V,M,V,M,-1,-1,-1,-1,PLEAT,MVMVMV,CH,N/A,exact singleton transported from canonical pleat order,1
+MVVMVV,M,V,V,M,V,V,-1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVVMM,M,V,V,V,M,M,1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVVMV,M,V,V,V,M,V,1,-1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVVVM,M,V,V,V,V,M,-1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+MVVVVV,M,V,V,V,V,V,-1,-1,1,-1,CONSTANT_RHO_MINUS,MVMMMM,CH,B_L(alpha)=B_L(beta),exact transported MVMMMM singleton block fibres,4k-3
+VMMMMM,V,M,M,M,M,M,-1,-1,1,-1,CONSTANT_RHO_MINUS,MVMMMM,H,B_L(alpha)=B_L(beta),exact transported MVMMMM singleton block fibres,4k-3
+VMMMMV,V,M,M,M,M,V,-1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMMMVM,V,M,M,M,V,M,1,-1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMMMVV,V,M,M,M,V,V,1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMMVMM,V,M,M,V,M,M,-1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMMVMV,V,M,M,V,M,V,-1,-1,-1,-1,PLEAT,MVMVMV,H,N/A,exact singleton transported from canonical pleat order,1
+VMMVVM,V,M,M,V,V,M,1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMMVVV,V,M,M,V,V,V,1,-1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVMMM,V,M,V,M,M,M,1,-1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVMMV,V,M,V,M,M,V,1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVMVM,V,M,V,M,V,M,-1,-1,-1,-1,PLEAT,MVMVMV,C,N/A,exact singleton transported from canonical pleat order,1
+VMVMVV,V,M,V,M,V,V,-1,1,-1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVVMM,V,M,V,V,M,M,1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVVMV,V,M,V,V,M,V,1,-1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVVVM,V,M,V,V,V,M,-1,1,1,-1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VMVVVV,V,M,V,V,V,V,-1,-1,1,-1,CONSTANT_RHO_MINUS,MVMMMM,C,B_R(alpha)=B_R(beta),exact transported MVMMMM singleton block fibres,4k-3
+VVMMMM,V,V,M,M,M,M,1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVMMMV,V,V,M,M,M,V,1,-1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVMMVM,V,V,M,M,V,M,-1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVMMVV,V,V,M,M,V,V,-1,-1,1,1,CONSTANT_RHO_PLUS,MMMMVV,CR,beta=1 OR beta=m OR alpha=beta,exact transported MMMMVV singleton pivot fibres,6k-5
+VVMVMM,V,V,M,V,M,M,1,-1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVMVMV,V,V,M,V,M,V,1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVMVVM,V,V,M,V,V,M,-1,-1,-1,1,PLEAT,MMMVVM,CR,N/A,exact singleton transported from canonical pleat order,1
+VVMVVV,V,V,M,V,V,V,-1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVMMM,V,V,V,M,M,M,-1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVMMV,V,V,V,M,M,V,-1,-1,-1,1,PLEAT,MMMVVM,C,N/A,exact singleton transported from canonical pleat order,1
+VVVMVM,V,V,V,M,V,M,1,1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVMVV,V,V,V,M,V,V,1,-1,-1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVVMM,V,V,V,V,M,M,-1,-1,1,1,CONSTANT_RHO_PLUS,MMMMVV,C,alpha=1 OR alpha=m OR alpha=beta,exact transported MMMMVV singleton pivot fibres,6k-5
+VVVVMV,V,V,V,V,M,V,-1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVVVM,V,V,V,V,V,M,1,-1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0
+VVVVVV,V,V,V,V,V,V,1,1,1,1,ZERO,N/A,N/A,N/A,empty exact state set,0

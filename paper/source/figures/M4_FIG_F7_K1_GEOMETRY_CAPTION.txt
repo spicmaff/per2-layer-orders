@@ -1,0 +1,1 @@
+Width-two boundary geometry for $k=1$. The physical map has four faces and exactly four creases $H_1,H_2,U_1,L_1$ meeting at the central degree-4 vertex. The formal period bits $u_1$ and $l_1$ have no physical carriers and therefore do not enter the $k=1$ criterion.

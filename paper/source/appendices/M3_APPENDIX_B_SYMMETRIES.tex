@@ -1,0 +1,117 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\appendix
+\section{Exact labelled symmetry maps}\label{appendix-b.-exact-labelled-symmetry-maps}
+
+This appendix gives the literal semantic verification behind Proposition
+4.3. Pivot coordinates are treated only in B.6, after the
+row-normal-form pivot has been defined in Section 6.
+
+\subsection{\texorpdfstring{B.1. Complement
+\(C\)}{B.1. Complement C}}\label{b.1.-complement-c}
+
+Complement fixes every face and crease while replacing every M/V label
+by its opposite. Checkerboard orientation and target classes are
+unchanged, so every primitive directed precedence reverses. Literal
+reversal of the total order reverses every strict inequality and
+preserves strict endpoint alternation. Hence \[
+T_C(\Pi)=\operatorname{rev}(\Pi)
+\] is an exact labelled state bijection.
+
+\subsection{\texorpdfstring{B.2. Row swap
+\(R\)}{B.2. Row swap R}}\label{b.2.-row-swap-r}
+
+The face map \(\phi_R\) exchanges \(A_c\) and \(B_c\), maps \(U_i\) to
+\(L_i\) and conversely, and fixes \(H_c\). It flips checkerboard
+light/dark orientation while preserving the M/V labels. Seam index, and
+therefore the \(E/W\) target class, is unchanged. Thus primitive
+precedences reverse and \[
+T_R(\Pi)=\operatorname{rev}(\phi_R(\Pi)).
+\] Incidence, disjointness, target class, and strict-alternation status
+are preserved.
+
+\subsection{\texorpdfstring{B.3. Horizontal reflection
+\(H\)}{B.3. Horizontal reflection H}}\label{b.3.-horizontal-reflection-h}
+
+The map \(\phi_H\) sends columns by \(c\mapsto n+1-c\), so \[
+H_c\mapsto H_{n+1-c},\qquad
+U_i\mapsto U_{n-i},\qquad
+L_i\mapsto L_{n-i}.
+\] Because \(n\) is even, the checkerboard orientation of every face
+flips. Horizontal-crease period parity therefore swaps \(h_0\) and
+\(h_1\). By contrast, \(n-i\) has the same parity as \(i\), so the \(u\)
+and \(l\) period slots and the \(E/W\) target classes are preserved. The
+precedence reversal caused by the checkerboard flip gives \[
+T_H(\Pi)=\operatorname{rev}(\phi_H(\Pi)).
+\] A physical seam \(p\) between columns \(p\) and \(p+1\) maps to the
+seam between columns \(n-p\) and \(n-p+1\); therefore \[
+p\longmapsto n-p.
+\]
+
+\subsection{\texorpdfstring{B.4. The compositions \(CR\) and
+\(CH\)}{B.4. The compositions CR and CH}}\label{b.4.-the-compositions-cr-and-ch}
+
+For \(CR\), row swap reverses the directed precedences and complement
+reverses them again. The two effects cancel, hence \[
+T_{CR}(\Pi)=\phi_R(\Pi).
+\] For \(CH\), horizontal reflection and complement likewise contribute
+two reversals, so \[
+T_{CH}(\Pi)=\phi_H(\Pi).
+\] In both cases the same incidence, target-class, and
+Butterfly-preservation arguments apply.
+
+\subsection{B.5. Exact two-direction state-set
+equivalence}\label{b.5.-exact-two-direction-state-set-equivalence}
+
+Each face transformation is bijective and preserves crease incidence and
+disjointness. Corresponding creases have the same folded target class.
+Bijective relabelling preserves endpoint positions up to renaming, and
+literal order reversal is an order anti-isomorphism; both preserve
+whether two disjoint same-target crease intervals strictly alternate.
+Thus every semantic clause holds for \(\Pi\) exactly when it holds for
+\(T_g(\Pi)\). Since every listed transformation is involutive, \[
+\Pi\in F(P,k)\iff T_g(\Pi)\in F(gP,k),
+\] and therefore \[
+F(gP,k)=T_g(F(P,k)).
+\] This is equality of literal labelled state sets, not a symmetry
+quotient.
+
+\subsection{B.6. Pivot coordinates after the row-normal-form
+definition}\label{b.6.-pivot-coordinates-after-the-row-normal-form-definition}
+
+Let \(R^\sigma(k,p)\) be the row-local normal form of Proposition 6.1,
+where \(p\) is the unique physical seam joining the extreme faces of the
+row order. Then \[
+T_C(R^\sigma(k,p))=R^{-\sigma}(k,p),
+\] so complement leaves the numerical pivot unchanged.
+
+Row swap exchanges physical rows without reflecting seam indices. Thus
+on an ordered upper/lower pair, \[
+(a,b)\longmapsto(b,a)
+\] under both \(R\) and \(CR\).
+
+Horizontal reflection sends the physical seam \(p\) to \(n-p\). The row
+normal forms satisfy \[
+T_H(R^\sigma(k,p))=R^\sigma(k,n-p),
+\] \[
+T_{CH}(R^\sigma(k,p))=R^{-\sigma}(k,n-p),
+\] and therefore \[
+(a,b)\longmapsto(n-a,n-b)
+\] under \(H\) and \(CH\). These identities transport row-local pivots;
+they do not assert that an arbitrary local pivot is globally realizable.
+
+\end{document}

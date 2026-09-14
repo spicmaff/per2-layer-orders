@@ -1,0 +1,12 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\section*{Supplement S3: Reproducibility}
+The directory \texttt{repro/} is a clean publication reproducibility package. From that directory run
+\begin{verbatim}
+python3 scripts/build_all.py generated
+\end{verbatim}
+It requires Python 3 and pdfLaTeX/TikZ, uses no network and no randomness, and includes the semantic reference implementation used for the bounded validation. The scripts regenerate the all-64 table, the $k=1$ table, validation JSON, editable vector figure sources, SVG figures, and PDF figures.
+The bounded validation products provide independent finite verification and reproducibility evidence only; they are not premises of the symbolic all-$k$ proofs.
+
+\end{document}

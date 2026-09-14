@@ -1,0 +1,241 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\appendix
+\section{\texorpdfstring{Reconstruction and
+block-compatibility closure for
+\(MVMMMM\)}{Reconstruction and block-compatibility closure for MVMMMM}}\label{appendix-e.-reconstruction-and-block-compatibility-closure-for-mvmmmm}
+
+This appendix keeps the two logical ingredients of Theorem 7.2 separate:
+fixed-row reconstruction/full validity, and the independent block
+criterion.
+
+\subsection{E.1. Fixed-row semantics}\label{e.1.-fixed-row-semantics}
+
+For \(MVMMMM\), every horizontal relation is \[
+A_c\prec B_c.
+\] The upper row is \(R^+(k,a)\) and the lower row is \(R^-(k,b)\).
+Hence the upper column sequence is the H-opener stream, while the lower
+column sequence is the H-closer request stream.
+
+\subsection{E.2. Fixed-row reconstruction: H/H noncrossing is
+LIFO}\label{e.2.-fixed-row-reconstruction-hh-noncrossing-is-lifo}
+
+With each opener before its matching closer, two horizontal intervals
+cross exactly when an earlier-opened interval closes while a
+later-opened distinct interval is still open. Pairwise \(H/H\) Butterfly
+noncrossing is therefore equivalent to the usual LIFO stack rule.
+
+Fix the two row chains and let \(c\) be the next requested lower label.
+If the matching upper opener has not yet been emitted, no lower label
+may bypass \(c\), so the upper chain is forced until that opener
+appears. If \(c\) is the stack top, its closer is forced immediately;
+pushing another opener would block the fixed next closer. If \(c\) is
+already buried in the stack, no completion exists. Induction over the
+lower events proves that an H-compatible merge is unique when it exists,
+and that the forced reconstruction succeeds exactly when H compatibility
+holds.
+
+\subsection{E.3. Automatic remainder after horizontal
+reconstruction}\label{e.3.-automatic-remainder-after-horizontal-reconstruction}
+
+Proposition 6.1 supplies all upper and lower vertical directed
+constraints and all same-row same-target vertical noncrossing. The H
+stack supplies every horizontal precedence and every \(H/H\) noncrossing
+condition. Since the horizontal target \(S\) is distinct from the
+vertical targets \(E,W\), no mixed horizontal/vertical twin family
+occurs. The only remaining class is \(U_i/L_j\) with equal seam parity.
+
+For seam \(i\), orient the adjacent horizontal nesting as \[
+A_{\alpha_i}\prec A_{\beta_i}\prec B_{\beta_i}\prec B_{\alpha_i},
+\] where \((\alpha_i,\beta_i)=(i,i+1)\) for odd \(i\) and \((i+1,i)\)
+for even \(i\). Thus \(U_i\) is the opener-side interval and \(L_i\) the
+closer-side interval of the same nested H pair.
+
+For distinct equal-parity seams \(i,j\), the two adjacent column pairs
+are disjoint. Consider two nested H pairs \[
+o_x<o_y<c_y<c_x,
+\qquad
+o_p<o_q<c_q<c_p,
+\] with opener-side intervals \(U_e=[o_x,o_y]\), \(U_f=[o_p,o_q]\) and
+closer-side intervals \(L_e=[c_y,c_x]\), \(L_f=[c_q,c_p]\). Suppose
+\(U_e\) crosses \(L_f\).
+
+If \[
+c_q<o_x<c_p<o_y,
+\] then \[
+o_p<o_x<c_p<c_x,
+\] so the horizontal intervals \([o_p,c_p]\) and \([o_x,c_x]\) cross,
+contradicting horizontal laminarity. Hence the only possible alternating
+order is \[
+o_x<c_q<o_y<c_p.
+\] If \(o_p<o_x\), horizontal laminarity of \([o_q,c_q]\) with
+\([o_x,c_x]\) forces \(o_x<o_q\), giving \[
+o_p<o_x<o_q<o_y,
+\] so \(U_e\) crosses \(U_f\). If instead \(o_x<o_p\), laminarity of
+\([o_p,c_p]\) with \([o_y,c_y]\) forces \(c_y<c_p\), while laminarity of
+\([o_x,c_x]\) with \([o_p,c_p]\) forces \(c_p<c_x\). Together with
+\(c_q<o_y<c_y\) this yields \[
+c_q<c_y<c_p<c_x,
+\] so \(L_e\) crosses \(L_f\). Therefore \[
+U_i\text{ crosses }L_j
+\Longrightarrow
+(U_i\text{ crosses }U_j)\ \text{or}\ (L_i\text{ crosses }L_j).
+\] Equal parity gives the same vertical target class, and Proposition
+6.1 forbids both same-row alternatives. For \(i=j\), the upper interval
+lies in the opener side of the nested adjacent H pair and the lower
+interval in the closer side, so they are disjoint. Thus every
+H-compatible merge is globally valid: \[
+\operatorname{FullCompat}(k;a,b)
+\iff
+\operatorname{HCompat}(k;a,b).
+\]
+
+\subsection{E.4. Endpoint normal forms for the block
+criterion}\label{e.4.-endpoint-normal-forms-for-the-block-criterion}
+
+Let \(W_p\) denote the \(+\) row-normal-form column word for pivot
+\(p\). Because the lower row is the reverse normal form, its closer
+request stream is \[
+\overleftarrow{W}_p:=\operatorname{rev}(W_p).
+\] The singleton-block word is \[
+W_1=(1,3,5,\ldots,2k-1,2k,2k-2,\ldots,2).
+\] For \(1\le r\le k-1\), name the two pivots in block \(r\) by \[
+p_r^{(0)}=2r,
+\qquad
+p_r^{(1)}=2r+1.
+\] Set \(c_r=2r+1\), \(d_r=2r+2\) and \[
+L_r=(2r-1,2r-3,\ldots,1,2,4,\ldots,2r),
+\] \[
+R_r=(2r+3,2r+5,\ldots,2k-1,2k,2k-2,\ldots,2r+4).
+\] Then \[
+W_{p_r^{(0)}}=c_rR_rd_rL_r,
+\qquad
+W_{p_r^{(1)}}=c_rL_rR_rd_r,
+\] and \[
+\overleftarrow{W}_{p_r^{(0)}}=
+\operatorname{rev}(L_r)d_r\operatorname{rev}(R_r)c_r,
+\] \[
+\overleftarrow{W}_{p_r^{(1)}}=
+d_r\operatorname{rev}(R_r)\operatorname{rev}(L_r)c_r.
+\] At \(r=k-1\), \(R_r\) is empty and the formulas remain literal. The
+block coordinate records the common junction index: \[
+B_R(1)=0,
+\qquad
+B_R(p_r^{(0)})=B_R(p_r^{(1)})=r.
+\]
+
+\subsection{E.5. Necessity for the block criterion: unequal
+blocks}\label{e.5.-necessity-for-the-block-criterion-unequal-blocks}
+
+For three distinct horizontal labels \(x,y,z\), suppose the opener order
+contains \[
+y\prec_W z\prec_W x
+\] while the closer stream requires \[
+x\prec_{\leftarrow W} y\prec_{\leftarrow W} z.
+\] No LIFO schedule can realize both. When \(x\) closes, both \(y\) and
+\(z\) have already opened; after \(x\) is removed, \(z\) lies above
+\(y\), yet the prescribed closer stream asks for \(y\) before \(z\).
+Additional pushes cannot repair the order and \(z\) is not permitted to
+close first.
+
+Every unequal ordered block pair contains such a witness. Since
+\(\overleftarrow{W}_b=\operatorname{rev}(W_b)\), it is enough to verify
+\[
+y\prec_{W_a}z\prec_{W_a}x,
+\qquad
+z\prec_{W_b}y\prec_{W_b}x.
+\] The following table covers all ordered unequal-block cases directly.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+ordered case
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+range
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\((x,y,z)\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+order in \(W_a\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+order in \(W_b\)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(1/p_s^{(0)}\) & \(1\le s\le k-1\) & \((2,1,2s+1)\) & \(1<2s+1<2\) &
+\(2s+1<1<2\) \\
+\(1/p_s^{(1)}\) & \(1\le s\le k-1\) & \((2,1,2s+1)\) & \(1<2s+1<2\) &
+\(2s+1<1<2\) \\
+\(p_r^{(0)}/1\) & \(1\le r\le k-1\) & \((2,2r+1,1)\) & \(2r+1<1<2\) &
+\(1<2r+1<2\) \\
+\(p_r^{(1)}/1\) & \(1\le r\le k-1\) & \((2,2r+1,1)\) & \(2r+1<1<2\) &
+\(1<2r+1<2\) \\
+\(p_r^{(0)}/p_s^{(0)}\) or \(p_r^{(0)}/p_s^{(1)}\) & \(r<s\) &
+\((1,2r+1,2r+3)\) & \(2r+1<2r+3<1\) & \(2r+3<2r+1<1\) \\
+\(p_r^{(1)}/p_s^{(0)}\) or \(p_r^{(1)}/p_s^{(1)}\) & \(r<s\) &
+\((2s,1,2r+3)\) & \(1<2r+3<2s\) & \(2r+3<1<2s\) \\
+\(p_r^{(0)}/p_s^{(0)}\) or \(p_r^{(1)}/p_s^{(0)}\) & \(r>s\) &
+\((1,2r+1,2r-1)\) & \(2r+1<2r-1<1\) & \(2r-1<2r+1<1\) \\
+\(p_r^{(0)}/p_s^{(1)}\) or \(p_r^{(1)}/p_s^{(1)}\) & \(r>s\) &
+\((2r,2r+1,1)\) & \(2r+1<1<2r\) & \(1<2r+1<2r\) \\
+\end{longtable}
+
+All witnesses lie in range. If \(r<s\), then \(r\le k-2\) and
+\(2r+3\le2k-1\); if \(r>s\), then \(r\ge2\) and \(2r-1\ge3\);
+singleton/non-singleton cases require only \(k\ge2\). Hence every
+unequal-block pair fails H compatibility.
+
+\subsection{E.6. Sufficiency for the block criterion: same-block
+schedules}\label{e.6.-sufficiency-for-the-block-criterion-same-block-schedules}
+
+For the singleton pair \((1,1)\), push all openers in \(W_1\) and pop
+them in reverse order.
+
+Within a nonzero block \(r\), the diagonal pairs \[
+(p_r^{(0)},p_r^{(0)}),
+\qquad
+(p_r^{(1)},p_r^{(1)})
+\] again use push-all/pop-all. For \((p_r^{(0)},p_r^{(1)})\), use \[
+\text{push }c_r,R_r,d_r;\quad
+\text{pop }d_r,\operatorname{rev}(R_r);\quad
+\text{push }L_r;\quad
+\text{pop }\operatorname{rev}(L_r);\quad
+\text{pop }c_r.
+\] For \((p_r^{(1)},p_r^{(0)})\), use \[
+\text{push }c_r,L_r;\quad
+\text{pop }\operatorname{rev}(L_r);\quad
+\text{push }R_r,d_r;\quad
+\text{pop }d_r,\operatorname{rev}(R_r);\quad
+\text{pop }c_r.
+\] Every requested closer is the stack top, every label is used once,
+and the stack ends empty. Thus equal block coordinate implies H
+compatibility.
+
+Combining E.5 and E.6 gives \[
+\operatorname{HCompat}(k;a,b)
+\iff
+B_R(a)=B_R(b).
+\] Together with E.3 this proves Theorem 7.2. No finite compatibility
+graph or count formula is used as a premise.
+
+\end{document}
